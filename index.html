@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BilimLiga</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<style>
+* { box-sizing: border-box; }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f2f6ff;
+    color: #14264b;
+}
+header {
+    background: linear-gradient(135deg, #102c68, #2475e8);
+    color: white;
+    padding: 28px 22px;
+    border-radius: 0 0 28px 28px;
+}
+.logo { font-size: 25px; font-weight: bold; }
+header p { color: #dce9ff; }
+.container { padding: 20px; }
+.welcome {
+    background: white;
+    padding: 20px;
+    border-radius: 18px;
+    margin-top: 18px;
+    box-shadow: 0 5px 20px #dce6f5;
+}
+h2 { margin-top: 5px; }
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 13px;
+    margin-top: 20px;
+}
+.card {
+    background: white;
+    padding: 20px 12px;
+    border-radius: 17px;
+    box-shadow: 0 4px 15px #dce6f5;
+    font-weight: bold;
+}
+.card span {
+    display: block;
+    font-size: 27px;
+    margin-bottom: 12px;
+}
+footer {
+    text-align: center;
+    color: #8290a9;
+    padding: 30px 10px;
+    font-size: 13px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">💙 BilimLiga</div>
+    <p>Bilim bilan g‘alaba sari!</p>
+</header>
+
+<div class="container">
+    <div class="welcome">
+    <h2 id="welcomeName">Xush kelibsiz! 👋</h2>
+    <p>Bilimingizni sinang va reytingda yuqorilang.</p>
+</div>
+
+    <div class="cards">
+        <div class="card"><span>📝</span>Testlar</div>
+        <div class="card"><span>🏆</span>Reyting</div>
+        <div class="card"><span>📊</span>Natijalar</div>
+        <div class="card"><span>👤</span>Profil</div>
+    </div>
+</div>
+
+<footer>BilimLiga © 2026</footer>
+<style>
+.card {
+    cursor: pointer;
+    transition: 0.2s;
+}
+.card:hover {
+    transform: translateY(-4px);
+}
+.subjects {
+    display: none;
+    background: white;
+    padding: 18px;
+    margin-top: 15px;
+    border-radius: 18px;
+}
+.subject {
+    padding: 14px;
+    margin: 8px 0;
+    background: #edf3ff;
+    border-radius: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.subject:hover {
+    background: #d8e7ff;
+}
+</style>
+
+<div class="subjects" id="subjects">
+    <h2>📚 Fanni tanlang</h2>
+    <div class="subject">📐 Matematika</div>
+    <div class="subject">🇬🇧 Ingliz tili</div>
+    <div class="subject">🌍 Geografiya</div>
+    <div class="subject">📜 Tarix</div>
+    <div class="subject">📖 Ona tili-Adabiyot</div>
+ <div class="subject">🌍 Mantiqiy savollar	</div>
+</div>
+
+<script>
+const cards = document.querySelectorAll(".card");
+
+cards[0].onclick = function() {
+    const box = document.getElementById("subjects");
+    box.style.display =
+        box.style.display === "block" ? "none" : "block";
+};
+</script>
+<div id="quiz" style="display:none; background:white; padding:20px; margin-top:15px; border-radius:18px;">
+    <h2 id="quizTitle">Test</h2>
+    <p id="question">O‘zbekiston poytaxti qaysi shahar?</p>
+    <div class="subject" onclick="checkAnswer(this, false)">Samarqand</div>
+    <div class="subject" onclick="checkAnswer(this, true)">Toshkent</div>
+    <div class="subject" onclick="checkAnswer(this, false)">Buxoro</div>
+    <p id="feedback"></p>
+</div>
+
+<script>
+document.querySelectorAll(".subject").forEach(function(item) {
+    item.onclick = function() {
+        if (item.parentElement.id === "subjects") {
+            document.getElementById("quiz").style.display = "block";
+            document.getElementById("quizTitle").textContent = item.textContent;
+            document.getElementById("feedback").textContent = "";
+        }
+    };
+});
+
+function checkAnswer(element, correct) {
+    document.getElementById("feedback").textContent =
+        correct ? "🎉 To‘g‘ri javob!" : "❌ Noto‘g‘ri. Qayta urinib ko‘ring!";
+}
+</script>
+<div id="realQuiz" style="display:none; background:white; padding:20px; margin-top:15px; border-radius:18px;">
+    <h2 id="realTitle">BilimLiga testi</h2>
+    <div id="progress">Savol 1 / 5</div>
+    <h3 id="realQuestion"></h3>
+    <div id="answers"></div>
+    <p id="resultMessage"></p>
+<div id="detailedResult" style="
+    display:none;
+    background:#edf3ff;
+    padding:18px;
+    border-radius:15px;
+    margin-top:15px;
+">
+    <h3 style="color:#174ea6;">📊 Test hisoboti</h3>
+    <p>📝 Jami savollar: <b id="finalTotal">0</b></p>
+    <p>✅ To‘g‘ri javoblar: <b id="finalCorrect">0</b></p>
+    <p>❌ Noto‘g‘ri javoblar: <b id="finalWrong">0</b></p>
+    <p>🏆 To‘plangan ball: <b id="finalPoints">0</b></p>
+    <p>📈 Natija: <b id="finalPercent">0%</b></p>
+</div>
+    <button id="nextBtn" onclick="nextQuestion()" style="display:none; padding:12px 22px; background:#1769df; color:white; border:0; border-radius:10px;">Keyingi savol →</button>
+</div>
+
+<script>
+const questions = [
+    {
+        question: "O‘zbekiston poytaxti qaysi shahar?",
+        answers: ["Samarqand", "Toshkent", "Buxoro", "Xiva"],
+        correct: 1
+    },
+    {
+        question: "5 × 6 nechaga teng?",
+        answers: ["25", "35", "30", "40"],
+        correct: 2
+    },
+    {
+        question: "Ingliz tilida 'Apple' nima degani?",
+        answers: ["Olma", "Kitob", "Uy", "Suv"],
+        correct: 0
+    },
+    {
+        question: "Yerning tabiiy yo‘ldoshi nima?",
+        answers: ["Quyosh", "Mars", "Oy", "Yulduz"],
+        correct: 2
+    },
+    {
+        question: "Bir haftada necha kun bor?",
+        answers: ["5", "6", "7", "8"],
+        correct: 2
+    }
+];
+
+let currentQuestion = 0;
+let score = 0;
+let answered = false;
+
+function startRealQuiz() {
+    currentQuestion = 0;
+document.getElementById("detailedResult").style.display = "none";
+    score = 0;
+    document.getElementById("quiz").style.display = "none";
+    document.getElementById("subjects").style.display = "none";
+    document.getElementById("realQuiz").style.display = "block";
+    showQuestion();
+}
+
+function showQuestion() {
+    answered = false;
+    const q = questions[currentQuestion];
+startQuestionTimer();
+
+    document.getElementById("progress").textContent =
+        "Savol " + (currentQuestion + 1) + " / " + questions.length;
+
+    document.getElementById("realQuestion").textContent = q.question;
+    document.getElementById("resultMessage").textContent = "";
+    document.getElementById("nextBtn").style.display = "none";
+
+    const box = document.getElementById("answers");
+    box.innerHTML = "";
+
+    q.answers.forEach(function(answer, index) {
+        const btn = document.createElement("button");
+        btn.textContent = answer;
+        btn.style.cssText = "display:block;width:100%;padding:14px;margin:9px 0;border:0;border-radius:12px;background:#edf3ff;text-align:left;font-size:16px;cursor:pointer;";
+        btn.onclick = function() {
+            if (answered) return;
+            answered = true;
+clearInterval(questionTimer);
+
+            if (index === q.correct) {
+                score++;
+                document.getElementById("resultMessage").textContent = "🎉 To‘g‘ri! +1 ball";
+            } else {
+                document.getElementById("resultMessage").textContent = "❌ Noto‘g‘ri javob!";
+            }
+
+            document.getElementById("nextBtn").style.display = "block";
+        };
+        box.appendChild(btn);
+    });
+}
+
+function nextQuestion() {
+    currentQuestion++;
+
+    if (currentQuestion < questions.length) {
+        showQuestion();
+    } else {
+        document.getElementById("realQuestion").textContent =
+            "Test yakunlandi! 🎉";
+        document.getElementById("answers").innerHTML = "";
+        document.getElementById("progress").textContent = "Natijangiz";
+        document.getElementById("resultMessage").textContent =
+            "Siz " + questions.length + " ta savoldan " + score + " tasiga to‘g‘ri javob berdingiz. Ball: " + score;
+        document.getElementById("nextBtn").style.display = "none";
+showTournamentResult(score);
+const total = questions.length;
+const wrong = total - score;
+const percent = Math.round((score / total) * 100);
+
+document.getElementById("detailedResult").style.display = "block";
+document.getElementById("finalTotal").textContent = total;
+document.getElementById("finalCorrect").textContent = score;
+document.getElementById("finalWrong").textContent = wrong;
+document.getElementById("finalPoints").textContent = score;
+document.getElementById("finalPercent").textContent = percent + "%";
+    }
+}
+</script>
+<script>
+document.querySelectorAll("#subjects .subject").forEach(function(item) {
+    item.onclick = function() {
+        document.getElementById("realTitle").textContent = item.textContent;
+        startRealQuiz();
+    };
+});
+</script>
+<div id="tournamentResult" style="display:none; background:linear-gradient(135deg,#102c68,#2475e8); color:white; padding:22px; margin:20px; border-radius:22px;">
+    <h2>🏆 BilimLiga natijalari</h2>
+
+    <p>Bugungi natijangiz</p>
+    <h1 id="todayScore">0 ball</h1>
+
+    <hr style="border-color:#ffffff55;">
+
+    <p>3 kunlik umumiy ball</p>
+    <h1 id="totalScore">0 ball</h1>
+
+    <p>Har kungi natijangiz umumiy ballga qo‘shiladi!</p>
+</div>
+<script>
+function showTournamentResult(today) {
+    document.getElementById("tournamentResult").style.display = "block";
+
+    document.getElementById("todayScore").textContent =
+        today + " ball";
+
+    document.getElementById("totalScore").textContent =
+        today + " ball";
+}
+</script>
+<div id="leaderboard" style="display:none; background:white; padding:20px; margin:20px; border-radius:20px;">
+    <h2>🏆 BilimLiga reytingi</h2>
+    <p>3 kunlik umumiy natijalar</p>
+
+    <div style="padding:14px;background:#fff3ce;border-radius:12px;margin:10px 0;">
+        🥇 Ali — 53 ball
+    </div>
+
+    <div style="padding:14px;background:#edf3ff;border-radius:12px;margin:10px 0;">
+        🥈 Vali — 47 ball
+    </div>
+
+    <div style="padding:14px;background:#edf3ff;border-radius:12px;margin:10px 0;">
+        🥉 Hasan — 42 ball
+    </div>
+
+    <div style="padding:14px;background:#edf3ff;border-radius:12px;margin:10px 0;">
+        4. Ishtirokchi — 35 ball
+    </div>
+</div>
+
+<script>
+function showLeaderboard() {
+    document.getElementById("leaderboard").style.display = "block";
+    document.getElementById("subjects").style.display = "none";
+    document.getElementById("quiz").style.display = "none";
+    document.getElementById("realQuiz").style.display = "none";
+    document.getElementById("tournamentResult").style.display = "none";
+}
+</script>
+<script>
+document.querySelectorAll(".card").forEach(function(card) {
+    if (card.textContent.includes("Reyting")) {
+        card.onclick = showLeaderboard;
+    }
+});
+</script>
+<!-- BILIMLIGA NATIJALAR SAHIFASI -->
+<div id="resultsPage" style="
+    display:none;
+    background:#ffffff;
+    padding:22px;
+    margin:20px;
+    border-radius:22px;
+    box-shadow:0 8px 25px rgba(20,60,120,0.10);
+">
+
+    <h2 style="color:#174ea6;">📊 Mening natijalarim</h2>
+    <p style="color:#718096;">BilimLiga musobaqasidagi ko‘rsatkichlaringiz</p>
+
+    <div style="
+        background:linear-gradient(135deg,#1769df,#174ea6);
+        color:white;
+        padding:22px;
+        border-radius:18px;
+        margin:18px 0;
+        text-align:center;
+    ">
+        <p>🏆 3 kunlik umumiy ball</p>
+        <h1 id="myTotalScore" style="font-size:42px;margin:8px;">53</h1>
+        <p>Umumiy to‘plangan ball</p>
+    </div>
+
+    <h3 style="color:#174ea6;">📅 Kunlik natijalar</h3>
+
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+        <b>1-kun</b>
+      <span id="telegramId" style="float:right;">Ulanmoqda...</span>
+    </div>
+
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+        <b>2-kun</b>
+        <span style="float:right;">18 ball</span>
+    </div>
+
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+        <b>3-kun</b>
+        <span style="float:right;">20 ball</span>
+    </div>
+
+    <div style="
+        background:#e8f7ef;
+        padding:15px;
+        border-radius:13px;
+        margin-top:18px;
+        color:#167343;
+    ">
+        🎯 Sizning jami natijangiz: <b>53 ball</b>
+    </div>
+
+</div>
+
+<script>
+function showResultsPage() {
+    document.getElementById("resultsPage").style.display = "block";
+    document.getElementById("subjects").style.display = "none";
+    document.getElementById("quiz").style.display = "none";
+    document.getElementById("realQuiz").style.display = "none";
+    document.getElementById("tournamentResult").style.display = "none";
+    document.getElementById("leaderboard").style.display = "none";
+}
+</script>
+
+<script>
+document.querySelectorAll(".card").forEach(function(card) {
+    if (card.textContent.includes("Natijalar")) {
+        card.onclick = showResultsPage;
+    }
+});
+</script>
+<!-- BILIMLIGA PROFIL SAHIFASI -->
+<div id="profilePage" style="
+    display:none;
+    background:white;
+    padding:22px;
+    margin:20px;
+    border-radius:22px;
+    box-shadow:0 8px 25px rgba(20,60,120,0.10);
+">
+
+    <h2 style="color:#174ea6;">👤 Mening profilim</h2>
+
+    <div style="text-align:center;padding:20px 0;">
+        <div style="
+            width:85px;
+            height:85px;
+            border-radius:50%;
+            background:linear-gradient(135deg,#1769df,#174ea6);
+            color:white;
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            font-size:38px;
+            margin:auto;
+        ">👤</div>
+
+        <h2 id="profileName" style="color:#174ea6;">Ishtirokchi</h2>
+        <p style="color:#718096;">BilimLiga a'zosi</p>
+    </div>
+
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+        <b>🆔 Telegram ID</b>
+        <span style="float:right;">Hozircha ulanmagan</span>
+    </div>
+
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+        <b>🏆 Umumiy ball</b>
+        <span style="float:right;">53 ball</span>
+    </div>
+
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+        <b>📚 Ishtirok etilgan testlar</b>
+        <span style="float:right;">3 ta</span>
+    </div>
+
+    <div style="background:#e8f7ef;padding:15px;border-radius:13px;margin:10px 0;color:#167343;">
+        <b>⭐ Musobaqa holati</b>
+        <p style="margin-bottom:0;">Faol ishtirokchi</p>
+    </div>
+
+</div>
+
+<script>
+function showProfilePage() {
+    document.getElementById("profilePage").style.display = "block";
+    document.getElementById("subjects").style.display = "none";
+    document.getElementById("quiz").style.display = "none";
+    document.getElementById("realQuiz").style.display = "none";
+    document.getElementById("tournamentResult").style.display = "none";
+    document.getElementById("leaderboard").style.display = "none";
+    document.getElementById("resultsPage").style.display = "none";
+}
+
+document.querySelectorAll(".card").forEach(function(card) {
+    if (card.textContent.includes("Profil")) {
+        card.onclick = showProfilePage;
+    }
+});
+</script>
+
+<!-- BILIMLIGA PASTKI NAVIGATSIYA -->
+<nav id="bottomNav" style="
+    position:fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    background:white;
+    padding:12px 3px;
+    box-shadow:0 -4px 20px rgba(0,0,0,0.10);
+    z-index:999;
+    box-sizing:border-box;
+">
+    <button onclick="openHome()" class="navBtn">🏠<br>Asosiy</button>
+    <button onclick="openTests()" class="navBtn">📝<br>Testlar</button>
+    <button onclick="openRanking()" class="navBtn">🏆<br>Reyting</button>
+    <button onclick="openResults()" class="navBtn">📊<br>Natijalar</button>
+    <button onclick="openProfile()" class="navBtn">👤<br>Profil</button>
+</nav>
+
+<style>
+body {
+    padding-bottom:85px;
+}
+
+.navBtn {
+    border:0;
+    background:transparent;
+    color:#526581;
+    font-size:12px;
+    font-weight:600;
+    cursor:pointer;
+    padding:5px;
+    line-height:1.8;
+}
+
+.navBtn:active {
+    color:#1769df;
+}
+</style>
+
+<script>
+function hideAllPages() {
+    const pages = [
+        "subjects",
+        "quiz",
+        "realQuiz",
+        "tournamentResult",
+        "leaderboard",
+        "resultsPage",
+        "profilePage"
+    ];
+
+    pages.forEach(function(id) {
+        const page = document.getElementById(id);
+        if (page) page.style.display = "none";
+    });
+}
+
+function openHome() {
+    hideAllPages();
+}
+
+function openTests() {
+    hideAllPages();
+    document.getElementById("subjects").style.display = "block";
+}
+
+function openRanking() {
+    hideAllPages();
+    document.getElementById("leaderboard").style.display = "block";
+}
+
+function openResults() {
+    hideAllPages();
+    document.getElementById("resultsPage").style.display = "block";
+}
+
+function openProfile() {
+    hideAllPages();
+    document.getElementById("profilePage").style.display = "block";
+}
+</script>
+<script>
+let questionTimer;
+let timeLeft = 60;
+
+function startQuestionTimer() {
+    clearInterval(questionTimer);
+    timeLeft = 60;
+
+    let timerDisplay = document.getElementById("questionTimer");
+
+    if (!timerDisplay) {
+        timerDisplay = document.createElement("div");
+        timerDisplay.id = "questionTimer";
+        timerDisplay.style.cssText =
+            "background:#edf3ff;color:#1769df;padding:12px;border-radius:12px;text-align:center;font-weight:bold;margin:12px 0;font-size:18px;";
+
+        document.getElementById("progress").after(timerDisplay);
+    }
+
+    timerDisplay.textContent = "⏳ Qolgan vaqt: " + timeLeft + " soniya";
+
+    questionTimer = setInterval(function() {
+        timeLeft--;
+
+        timerDisplay.textContent =
+            "⏳ Qolgan vaqt: " + timeLeft + " soniya";
+
+        if (timeLeft <= 10) {
+            timerDisplay.style.background = "#ffe8e8";
+            timerDisplay.style.color = "#d93025";
+        }
+
+        if (timeLeft <= 0) {
+            clearInterval(questionTimer);
+            answered = true;
+
+            document.getElementById("resultMessage").textContent =
+                "⏰ Vaqt tugadi! Keyingi savolga o'tamiz.";
+
+            document.getElementById("answers").innerHTML = "";
+
+            setTimeout(function() {
+                nextQuestion();
+            }, 1500);
+        }
+    }, 1000);
+}
+</script>
+
+<script>
+const tg = window.Telegram?.WebApp;
+
+if (tg) {
+    tg.ready();
+    tg.expand();
+
+    const user = tg.initDataUnsafe?.user;
+
+    if (user) {
+        const name = user.first_name || "Ishtirokchi";
+
+        document.getElementById("welcomeName").textContent =
+            `Xush kelibsiz, ${name}! 👋`;
+
+        document.getElementById("profileName").textContent = name;
+        document.getElementById("telegramId").textContent = user.id;
+    }
+}
+</script>
+</body>
+</html>
+	
