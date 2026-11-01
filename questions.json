@@ -1,0 +1,9050 @@
+{
+  "math": {
+    "1": [
+      {
+        "q": "200 ning 15% i nechaga teng?",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "12² nechaga teng?",
+        "options": [
+          "124",
+          "144",
+          "164",
+          "122"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Uchburchak ichki burchaklari yig'indisi nechaga teng?",
+        "options": [
+          "90°",
+          "180°",
+          "270°",
+          "360°"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "2x − 5 = 17 bo'lsa, x nechaga teng?",
+        "options": [
+          "6",
+          "9",
+          "11",
+          "12"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "1 dan 10 gacha sonlar yig'indisi nechaga teng?",
+        "options": [
+          "45",
+          "50",
+          "55",
+          "60"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "√169 nechaga teng?",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "16"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Perimetri 36 sm bo'lgan kvadratning yuzi qancha?",
+        "options": [
+          "36",
+          "72",
+          "81",
+          "144"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi son tub son?",
+        "options": [
+          "9",
+          "15",
+          "21",
+          "23"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "x² − 5x + 6 = 0 tenglamaning ildizlari qaysi?",
+        "options": [
+          "1 va 6",
+          "2 va 3",
+          "−2 va −3",
+          "1 va 5"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "sin 30° nechaga teng?",
+        "options": [
+          "1/2",
+          "√3/2",
+          "1",
+          "√2/2"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "5! (5 faktorial) nechaga teng?",
+        "options": [
+          "24",
+          "60",
+          "100",
+          "120"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Radiusi 7 sm bo'lgan aylananing diametri qancha?",
+        "options": [
+          "7",
+          "14",
+          "21",
+          "49"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "0,25 ning oddiy kasr ko'rinishi qaysi?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/5"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Tomonlari 8 sm va 5 sm bo'lgan to'g'ri to'rtburchakning yuzi qancha?",
+        "options": [
+          "13",
+          "26",
+          "40",
+          "80"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "2⁵ nechaga teng?",
+        "options": [
+          "10",
+          "16",
+          "25",
+          "32"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Yig'indisi 24 bo'lgan ikkita ketma-ket toq sonning kichigi qaysi?",
+        "options": [
+          "9",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3,5 soat necha daqiqa?",
+        "options": [
+          "180",
+          "200",
+          "210",
+          "350"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "3 + 4 × 2 ifodaning qiymati nechaga teng?",
+        "options": [
+          "11",
+          "14",
+          "10",
+          "24"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Katetlari 6 va 8 bo'lgan to'g'ri burchakli uchburchakning gipotenuzasi qancha?",
+        "options": [
+          "9",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "log₂ 8 nechaga teng?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "8"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3, 7, 11, ... arifmetik progressiyaning 5-hadi nechaga teng?",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "21"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "3x > 12 tengsizlikning yechimi qaysi?",
+        "options": [
+          "x > 3",
+          "x > 4",
+          "x < 4",
+          "x > 36"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Soat 3:00 da soat strelkalari orasidagi burchak qancha?",
+        "options": [
+          "60°",
+          "75°",
+          "90°",
+          "120°"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Tanga ikki marta tashlanganda ikkala safar ham gerb tushish ehtimoli qancha?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "1/8"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "(a + b)² ifoda qaysi formulaga teng?",
+        "options": [
+          "a² + b²",
+          "a² + 2ab + b²",
+          "a² − 2ab + b²",
+          "2a + 2b"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "45 + 78 = ?",
+        "options": [
+          "113",
+          "133",
+          "124",
+          "123"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "9 × 7 = ?",
+        "options": [
+          "56",
+          "63",
+          "72",
+          "54"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "144 ÷ 12 = ?",
+        "options": [
+          "12",
+          "11",
+          "13",
+          "14"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "1000 − 357 = ?",
+        "options": [
+          "743",
+          "633",
+          "643",
+          "653"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "80 ning 25% i nechaga teng?",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3/4 + 1/4 = ?",
+        "options": [
+          "1/2",
+          "4/8",
+          "3/8",
+          "1"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "0,5 × 0,5 = ?",
+        "options": [
+          "2,5",
+          "0,025",
+          "0,25",
+          "1"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Tomoni 9 sm bo'lgan kvadratning perimetri qancha?",
+        "options": [
+          "36",
+          "18",
+          "27",
+          "81"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Tomonlari 6 va 4 bo'lgan to'g'ri to'rtburchakning perimetri qancha?",
+        "options": [
+          "10",
+          "24",
+          "20",
+          "48"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Asosi 10, balandligi 6 bo'lgan uchburchakning yuzi qancha?",
+        "options": [
+          "30",
+          "16",
+          "60",
+          "32"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Radiusi 3 bo'lgan doiraning yuzi qancha (π = 3,14)?",
+        "options": [
+          "18,84",
+          "9,42",
+          "56,52",
+          "28,26"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "7 + (−3) = ?",
+        "options": [
+          "10",
+          "4",
+          "−4",
+          "−10"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "(−5) × (−4) = ?",
+        "options": [
+          "20",
+          "−20",
+          "−9",
+          "9"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "|−8| nechaga teng?",
+        "options": [
+          "−8",
+          "0",
+          "8",
+          "16"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "EKUB(12; 18) nechaga teng?",
+        "options": [
+          "2",
+          "6",
+          "3",
+          "36"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "EKUK(4; 6) nechaga teng?",
+        "options": [
+          "24",
+          "10",
+          "2",
+          "12"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "100 ning 7% i nechaga teng?",
+        "options": [
+          "0,7",
+          "70",
+          "17",
+          "7"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "x/3 = 8 bo'lsa, x nechaga teng?",
+        "options": [
+          "11",
+          "24",
+          "5",
+          "83"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "5x = 45 bo'lsa, x nechaga teng?",
+        "options": [
+          "9",
+          "8",
+          "40",
+          "225"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "x − 12 = 30 bo'lsa, x nechaga teng?",
+        "options": [
+          "18",
+          "32",
+          "42",
+          "360"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "3(x + 2) = 21 bo'lsa, x nechaga teng?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "4x + 3 = 2x + 11 bo'lsa, x nechaga teng?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "4"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "2³ × 2² = ?",
+        "options": [
+          "2⁶",
+          "4⁵",
+          "2⁵",
+          "2⁴"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "10⁰ nechaga teng?",
+        "options": [
+          "1",
+          "0",
+          "10",
+          "aniqlanmagan"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "√81 = ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": 2
+      }
+    ],
+    "2": [
+      {
+        "q": "∛27 = ?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "9"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "15² = ?",
+        "options": [
+          "215",
+          "235",
+          "250",
+          "225"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "2 sutkada necha soat bor?",
+        "options": [
+          "24",
+          "48",
+          "36",
+          "72"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "1 sutkada necha daqiqa bor?",
+        "options": [
+          "1440",
+          "1200",
+          "1400",
+          "2400"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "2 km 300 m necha metr?",
+        "options": [
+          "2003",
+          "2030",
+          "2300",
+          "230"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Soatiga 80 km tezlik bilan 2,5 soatda necha km yuriladi?",
+        "options": [
+          "160",
+          "200",
+          "180",
+          "250"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Avtomobil 150 km ni 3 soatda bosdi. O'rtacha tezligi qancha?",
+        "options": [
+          "40",
+          "45",
+          "60",
+          "50"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Narxi 50 000 so'm bo'lgan mahsulotga 20% chegirma qilindi. Yangi narx qancha?",
+        "options": [
+          "30 000",
+          "45 000",
+          "48 000",
+          "40 000"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "5 ta daftar 12 000 so'm bo'lsa, 8 ta daftar necha so'm turadi?",
+        "options": [
+          "18 000",
+          "19 200",
+          "20 000",
+          "21 600"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "6 ishchi ishni 10 kunda bajaradi. 12 ishchi necha kunda bajaradi?",
+        "options": [
+          "5",
+          "2",
+          "12",
+          "20"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "4, 8, 12 sonlarining o'rta arifmetigi nechaga teng?",
+        "options": [
+          "6",
+          "10",
+          "8",
+          "12"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "3, 9, 5, 1, 7 sonlarining medianasi nechaga teng?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kubning nechta qirrasi bor?",
+        "options": [
+          "6",
+          "8",
+          "16",
+          "12"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qirrasi 3 sm bo'lgan kubning hajmi qancha?",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "81"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'lchamlari 2, 3 va 4 bo'lgan to'g'ri burchakli parallelepipedning hajmi qancha?",
+        "options": [
+          "24",
+          "9",
+          "18",
+          "30"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Muntazam oltiburchak ichki burchaklari yig'indisi qancha?",
+        "options": [
+          "540°",
+          "900°",
+          "720°",
+          "360°"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Muntazam beshburchakning bitta ichki burchagi qancha?",
+        "options": [
+          "108°",
+          "90°",
+          "100°",
+          "120°"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Teng yonli uchburchakning uchidagi burchak 40° bo'lsa, asosidagi burchagi qancha?",
+        "options": [
+          "40°",
+          "60°",
+          "140°",
+          "70°"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Tomonlari 5, 12, 13 bo'lgan uchburchak qanday uchburchak?",
+        "options": [
+          "O'tkir burchakli",
+          "To'g'ri burchakli",
+          "O'tmas burchakli",
+          "Teng tomonli"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Uchburchakning ikki burchagi 35° va 65°. Uchinchi burchagi qancha?",
+        "options": [
+          "80°",
+          "70°",
+          "90°",
+          "100°"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Parallelogrammning qo'shni burchaklari yig'indisi qancha?",
+        "options": [
+          "90°",
+          "270°",
+          "180°",
+          "360°"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Asoslari 6 va 10, balandligi 4 bo'lgan trapetsiyaning yuzi qancha?",
+        "options": [
+          "24",
+          "32",
+          "40",
+          "64"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Diagonallari 6 va 8 bo'lgan rombning yuzi qancha?",
+        "options": [
+          "14",
+          "28",
+          "48",
+          "24"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Radiusi 5 bo'lgan aylana uzunligi qancha (π = 3,14)?",
+        "options": [
+          "15,7",
+          "78,5",
+          "62,8",
+          "31,4"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Eng kichik tub son qaysi?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "1 dan 20 gacha nechta tub son bor?",
+        "options": [
+          "8",
+          "6",
+          "7",
+          "9"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "36 sonining nechta natural bo'luvchisi bor?",
+        "options": [
+          "6",
+          "8",
+          "9",
+          "12"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "120 sonining nechta tub bo'luvchisi bor?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi son 3 ga bo'linadi?",
+        "options": [
+          "124",
+          "125",
+          "127",
+          "126"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi son 9 ga bo'linadi?",
+        "options": [
+          "235",
+          "236",
+          "234",
+          "238"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi son 4 ga bo'linadi?",
+        "options": [
+          "316",
+          "314",
+          "318",
+          "322"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "2 ga ham, 5 ga ham bo'linadigan sonning oxirgi raqami qaysi?",
+        "options": [
+          "2",
+          "5",
+          "0",
+          "4"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "1 + 3 + 5 + 7 + 9 = ?",
+        "options": [
+          "25",
+          "20",
+          "24",
+          "30"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "2 + 4 + 6 + ... + 20 yig'indisi nechaga teng?",
+        "options": [
+          "100",
+          "120",
+          "210",
+          "110"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "3, 6, 12, ... geometrik progressiyaning 5-hadi nechaga teng?",
+        "options": [
+          "24",
+          "48",
+          "36",
+          "96"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "a₁ = 5, d = 3 bo'lgan arifmetik progressiyaning 10-hadi nechaga teng?",
+        "options": [
+          "32",
+          "30",
+          "35",
+          "38"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "aₙ = 2n + 1 bo'lsa, a₅ nechaga teng?",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "1, 1, 2, 3, 5, 8, 13, 21, ? Keyingi son qaysi?",
+        "options": [
+          "29",
+          "34",
+          "31",
+          "42"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Zar tashlanganda 6 tushish ehtimoli qancha?",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/12",
+          "1/6"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Zar tashlanganda juft son tushish ehtimoli qancha?",
+        "options": [
+          "1/6",
+          "1/3",
+          "2/3",
+          "1/2"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qutida 3 ta qizil va 2 ta ko'k shar bor. Ko'k shar chiqish ehtimoli qancha?",
+        "options": [
+          "2/3",
+          "2/5",
+          "3/5",
+          "1/2"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "52 ta kartadan tasodifan tuz (ace) chiqish ehtimoli qancha?",
+        "options": [
+          "1/13",
+          "1/4",
+          "1/52",
+          "1/26"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "5 kishidan 2 kishilik guruhni necha usulda tanlash mumkin?",
+        "options": [
+          "5",
+          "20",
+          "10",
+          "25"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "4 kishini qatorga necha xil usulda tizish mumkin?",
+        "options": [
+          "12",
+          "24",
+          "16",
+          "120"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3 xil ko'ylak va 2 xil shimdan necha xil komplekt tuzish mumkin?",
+        "options": [
+          "5",
+          "8",
+          "9",
+          "6"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "x² = 49 tenglamaning yechimi qaysi?",
+        "options": [
+          "7",
+          "−7",
+          "7 va −7",
+          "49"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "x² − 16 = 0 tenglama ildizlarining ko'paytmasi qancha?",
+        "options": [
+          "−16",
+          "16",
+          "4",
+          "0"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "x² + 2x + 1 = 0 tenglamaning yechimi qaysi?",
+        "options": [
+          "1",
+          "2",
+          "−1",
+          "−2"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "(x − 3)(x + 3) = ?",
+        "options": [
+          "x² − 9",
+          "x² − 6",
+          "x² + 9",
+          "x² − 3x"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "2x + 3y ifodada x = 2, y = 3 bo'lsa, qiymati qancha?",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "13"
+        ],
+        "answer": 3
+      }
+    ],
+    "3": [
+      {
+        "q": "5a − 2a = ?",
+        "options": [
+          "3",
+          "3a",
+          "7a",
+          "10a"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "x + x + x = ?",
+        "options": [
+          "3x",
+          "x³",
+          "3 + x",
+          "x/3"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "x + y = 10 va x − y = 2 bo'lsa, x nechaga teng?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "8"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "y = 2x + 1 funksiyada x = 3 bo'lsa, y nechaga teng?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "8"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "y = x² funksiyada x = −4 bo'lsa, y nechaga teng?",
+        "options": [
+          "−16",
+          "8",
+          "−8",
+          "16"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Koordinata o'qlari kesishgan nuqta koordinatasi qaysi?",
+        "options": [
+          "(1; 1)",
+          "(0; 1)",
+          "(1; 0)",
+          "(0; 0)"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "y = 3x to'g'ri chiziq qaysi nuqtadan o'tadi?",
+        "options": [
+          "(1; 2)",
+          "(2; 6)",
+          "(3; 6)",
+          "(6; 2)"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "lg 1000 = ?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "log₃ 81 = ?",
+        "options": [
+          "3",
+          "27",
+          "4",
+          "9"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "cos 60° = ?",
+        "options": [
+          "√3/2",
+          "1/2",
+          "1",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "tg 45° = ?",
+        "options": [
+          "0",
+          "1/2",
+          "√3",
+          "1"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "sin 90° = ?",
+        "options": [
+          "0",
+          "1/2",
+          "1",
+          "√2/2"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "180° necha radianga teng?",
+        "options": [
+          "π",
+          "π/2",
+          "2π",
+          "3π/2"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "2⁻¹ nechaga teng?",
+        "options": [
+          "−2",
+          "−1/2",
+          "1/2",
+          "2"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "√50 ni soddalashtiring.",
+        "options": [
+          "5√2",
+          "25",
+          "10√5",
+          "2√5"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "0,2 + 0,03 = ?",
+        "options": [
+          "0,05",
+          "0,5",
+          "2,3",
+          "0,23"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1/2 : 1/4 = ?",
+        "options": [
+          "1/8",
+          "2",
+          "1/2",
+          "4"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "60 ning 2/3 qismi nechaga teng?",
+        "options": [
+          "40",
+          "30",
+          "36",
+          "45"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Biror sonning 20% i 18 bo'lsa, o'sha son nechaga teng?",
+        "options": [
+          "36",
+          "72",
+          "90",
+          "108"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Narx 40 dan 50 ga ko'tarildi. U necha foizga oshdi?",
+        "options": [
+          "10%",
+          "25%",
+          "20%",
+          "50%"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "100 ni 10% ga oshirib, so'ng natijani 10% ga kamaytirsak, nima hosil bo'ladi?",
+        "options": [
+          "100",
+          "101",
+          "90",
+          "99"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "a : b = 3 : 5 va a = 12 bo'lsa, b nechaga teng?",
+        "options": [
+          "15",
+          "18",
+          "25",
+          "20"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Masshtab 1:25 000 bo'lgan xaritada 4 sm haqiqatda necha?",
+        "options": [
+          "100 m",
+          "1 km",
+          "500 m",
+          "10 km"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ketma-ket uchta sonning yig'indisi 48. Eng kichigi qaysi?",
+        "options": [
+          "15",
+          "14",
+          "16",
+          "17"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ikki son yig'indisi 20, ayirmasi 4. Kattasi qaysi?",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "14"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ota 40 yoshda, o'g'li 10 yoshda. Necha yildan keyin ota o'g'lidan 2 baravar katta bo'ladi?",
+        "options": [
+          "10",
+          "20",
+          "15",
+          "30"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Quvurlardan biri hovuzni 6 soatda, ikkinchisi 3 soatda to'ldiradi. Birgalikda necha soatda to'ldiradi?",
+        "options": [
+          "3",
+          "4",
+          "4,5",
+          "2"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Tomoni 5 bo'lgan kvadratning diagonali qancha?",
+        "options": [
+          "5",
+          "10",
+          "5√2",
+          "25"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Radiusi 1 bo'lgan sharning sirt yuzi qancha?",
+        "options": [
+          "4π",
+          "π",
+          "2π",
+          "4π/3"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Silindr hajmi formulasi qaysi?",
+        "options": [
+          "2πrh",
+          "πrh",
+          "πr²h",
+          "4πr²"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Konus hajmi formulasi qaysi?",
+        "options": [
+          "⅓πr²h",
+          "πr²h",
+          "½πr²h",
+          "2πrh"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Shar hajmi formulasi qaysi?",
+        "options": [
+          "4πr²",
+          "πr³",
+          "⅔πr³",
+          "4/3 πr³"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Gipotenuza 13, bir katet 5 bo'lsa, ikkinchi katet qancha?",
+        "options": [
+          "8",
+          "12",
+          "10",
+          "14"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Uchburchakning asosi 14 bo'lsa, unga parallel o'rta chiziq uzunligi qancha?",
+        "options": [
+          "7",
+          "5",
+          "14",
+          "28"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Diametrga tiralgan, aylanaga ichki chizilgan burchak necha gradus?",
+        "options": [
+          "45°",
+          "60°",
+          "90°",
+          "180°"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qavariq beshburchakning nechta diagonali bor?",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "10"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "1 gektar necha m²?",
+        "options": [
+          "100",
+          "1000",
+          "100 000",
+          "10 000"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1 litr necha sm³?",
+        "options": [
+          "10",
+          "100",
+          "10 000",
+          "1000"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "2,5 kg necha gramm?",
+        "options": [
+          "250",
+          "2500",
+          "25 000",
+          "2005"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "0,125 sonining oddiy kasr ko'rinishi qaysi?",
+        "options": [
+          "1/8",
+          "1/4",
+          "1/5",
+          "1/10"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "7/8 va 3/4 dan qaysi biri katta?",
+        "options": [
+          "3/4",
+          "Ikkalasi teng",
+          "7/8",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi son eng katta?",
+        "options": [
+          "0,07",
+          "0,7",
+          "0,17",
+          "0,69"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3,6 ni butungacha yaxlitlang.",
+        "options": [
+          "3",
+          "3,5",
+          "5",
+          "4"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "5,25 ni o'ndan birgacha yaxlitlang.",
+        "options": [
+          "5,2",
+          "5,0",
+          "5,3",
+          "5,5"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "XIV rim raqami qaysi sonni bildiradi?",
+        "options": [
+          "14",
+          "6",
+          "16",
+          "24"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "49 sonining rim raqamlaridagi yozuvi qaysi?",
+        "options": [
+          "IL",
+          "LXIX",
+          "XLIX",
+          "XXXXIX"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "2¹⁰ nechaga teng?",
+        "options": [
+          "1024",
+          "1000",
+          "512",
+          "2048"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "7 × 13 = ?",
+        "options": [
+          "81",
+          "93",
+          "101",
+          "91"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "25 × 24 = ?",
+        "options": [
+          "500",
+          "600",
+          "550",
+          "650"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "99 × 11 = ?",
+        "options": [
+          "1089",
+          "1099",
+          "990",
+          "1009"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "lit": {
+    "1": [
+      {
+        "q": "O'zbek tilida nechta unli tovush bor?",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Kitob\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Sifat",
+          "Fe'l",
+          "Ot",
+          "Ravish"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Tez\" so'zining antonimi (zid ma'nodoshi) qaysi?",
+        "options": [
+          "sekin",
+          "chaqqon",
+          "shiddatli",
+          "darrov"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Navoiyning \"Xamsa\"si nechta dostondan iborat?",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"O'tkan kunlar\" romanining muallifi kim?",
+        "options": [
+          "Cho'lpon",
+          "Abdulla Qodiriy",
+          "Oybek",
+          "G'afur G'ulom"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Boburnoma\" asarining muallifi kim?",
+        "options": [
+          "Alisher Navoiy",
+          "Mirzo Ulug'bek",
+          "Zahiriddin Muhammad Bobur",
+          "Amir Temur"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Kecha va kunduz\" romanining muallifi kim?",
+        "options": [
+          "Cho'lpon",
+          "Hamza",
+          "Fitrat",
+          "Abdulla Qodiriy"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbekiston Respublikasi Davlat madhiyasining so'zlari muallifi kim?",
+        "options": [
+          "Abdulla Oripov",
+          "Erkin Vohidov",
+          "Muhammad Yusuf",
+          "Zulfiya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Ona\" so'zida nechta bo'g'in bor?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z ot emas?",
+        "options": [
+          "maktab",
+          "go'zal",
+          "daryo",
+          "o'quvchi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Sinchalak\" qissasining muallifi kim?",
+        "options": [
+          "Abdulla Qahhor",
+          "Oybek",
+          "Pirimqul Qodirov",
+          "Said Ahmad"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Navro'z qaysi fasl bayrami?",
+        "options": [
+          "Kuz",
+          "Qish",
+          "Bahor",
+          "Yoz"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Alpomish\" nima?",
+        "options": [
+          "Xalq dostoni",
+          "Roman",
+          "G'azal",
+          "Hikoya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Yugurdi\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Ot",
+          "Sifat",
+          "Fe'l",
+          "Son"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Qizil\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Ot",
+          "Sifat",
+          "Ravish",
+          "Olmosh"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Men\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Son",
+          "Sifat",
+          "Olmosh",
+          "Yuklama"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Besh\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Son",
+          "Ot",
+          "Fe'l",
+          "Ravish"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ega qaysi so'roqlarga javob bo'ladi?",
+        "options": [
+          "Kim? Nima?",
+          "Qanday?",
+          "Qachon?",
+          "Qayerda?"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Kelajak\" so'zining sinonimi qaysi?",
+        "options": [
+          "Hozir",
+          "Istiqbol",
+          "O'tmish",
+          "Kecha"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Yaxshi\" so'zining antonimi qaysi?",
+        "options": [
+          "Go'zal",
+          "Yomon",
+          "Chiroyli",
+          "Zo'r"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Alisher Navoiy qaysi shaharda tug'ilgan?",
+        "options": [
+          "Samarqand",
+          "Buxoro",
+          "Hirot",
+          "Toshkent"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Qutadg'u bilig\" asarining muallifi kim?",
+        "options": [
+          "Mahmud Koshg'ariy",
+          "Yusuf Xos Hojib",
+          "Ahmad Yassaviy",
+          "Rabg'uziy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Devonu lug'otit turk\" asarining muallifi kim?",
+        "options": [
+          "Mahmud Koshg'ariy",
+          "Beruniy",
+          "Ibn Sino",
+          "Navoiy"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Navoiy \"Xamsa\"sini qaysi tilda yozgan?",
+        "options": [
+          "Fors tilida",
+          "Arab tilida",
+          "Eski o'zbek (chig'atoy) tilida",
+          "Turk tilida"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbek tili qaysi tillar oilasiga kiradi?",
+        "options": [
+          "Hind-yevropa",
+          "Turkiy",
+          "Slavyan",
+          "Roman"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Kitoblar\" so'zida nechta bo'g'in bor?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi harf unli tovushni bildiradi?",
+        "options": [
+          "b",
+          "d",
+          "m",
+          "o"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Maktab\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "maktabim",
+          "maktabga",
+          "maktablar",
+          "maktabda"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z sifat?",
+        "options": [
+          "Baland",
+          "Yugurmoq",
+          "Daftar",
+          "To'rt"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Uch\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Ot",
+          "Sifat",
+          "Son",
+          "Ravish"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Tez yuguryapti\" gapida \"tez\" so'zi qaysi so'z turkumi?",
+        "options": [
+          "Ravish",
+          "Ot",
+          "Son",
+          "Olmosh"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi gap so'roq gap?",
+        "options": [
+          "Kitob o'qi.",
+          "Bahor keldi.",
+          "Qanday chiroyli kun!",
+          "Sen qayerga borasan?"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi gap buyruq gap?",
+        "options": [
+          "Men maktabga boraman.",
+          "Darsni o'qi.",
+          "Bu kim?",
+          "Qanday yaxshi!"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbek tilida nechta kelishik bor?",
+        "options": [
+          "6",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Kitobni\" so'zi qaysi kelishikda?",
+        "options": [
+          "Qaratqich",
+          "Jo'nalish",
+          "Tushum",
+          "Chiqish"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Maktabga\" so'zi qaysi kelishikda?",
+        "options": [
+          "Tushum",
+          "Jo'nalish",
+          "O'rin-payt",
+          "Bosh"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Uyda\" so'zi qaysi kelishikda?",
+        "options": [
+          "Tushum",
+          "Qaratqich",
+          "Jo'nalish",
+          "O'rin-payt"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Daryodan\" so'zi qaysi kelishikda?",
+        "options": [
+          "Bosh",
+          "Qaratqich",
+          "Tushum",
+          "Chiqish"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Otamning\" so'zi qaysi kelishikda?",
+        "options": [
+          "Tushum",
+          "Qaratqich",
+          "Chiqish",
+          "Jo'nalish"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Fe'lning nechta zamoni bor?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "5"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Yozdim\" fe'li qaysi zamonda?",
+        "options": [
+          "Hozirgi",
+          "Kelasi",
+          "O'tgan",
+          "Shart"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Boraman\" fe'li qaysi zamonda?",
+        "options": [
+          "O'tgan",
+          "Hozirgi-kelasi",
+          "Buyruq",
+          "Shart"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Gapning bosh bo'laklari qaysilar?",
+        "options": [
+          "To'ldiruvchi va hol",
+          "Aniqlovchi va hol",
+          "Ega va aniqlovchi",
+          "Ega va kesim"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Bola kitob o'qidi.\" gapida ega qaysi?",
+        "options": [
+          "Bola",
+          "Kitob",
+          "O'qidi",
+          "Ega yo'q"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Ali maktabga bordi.\" gapida kesim qaysi?",
+        "options": [
+          "Ali",
+          "maktabga",
+          "bordi",
+          "Ali maktabga"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Men kitobni o'qidim.\" gapida \"kitobni\" qaysi gap bo'lagi?",
+        "options": [
+          "Ega",
+          "To'ldiruvchi",
+          "Hol",
+          "Kesim"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Chiroyli gul\" birikmasida \"chiroyli\" qaysi gap bo'lagi?",
+        "options": [
+          "Ega",
+          "Kesim",
+          "To'ldiruvchi",
+          "Aniqlovchi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Kecha\", \"bugun\", \"ertaga\" so'zlari qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Ot",
+          "Fe'l",
+          "Ravish",
+          "Son"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Ular\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Olmosh",
+          "Ot",
+          "Sifat",
+          "Fe'l"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Va\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Yuklama",
+          "Ko'makchi",
+          "Bog'lovchi",
+          "Undov"
+        ],
+        "answer": 2
+      }
+    ],
+    "2": [
+      {
+        "q": "\"Ey!\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Undov",
+          "Bog'lovchi",
+          "Yuklama",
+          "Ravish"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Uchun\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Bog'lovchi",
+          "Yuklama",
+          "Olmosh",
+          "Ko'makchi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Kelasanmi?\" so'zidagi \"-mi\" qaysi so'z turkumi?",
+        "options": [
+          "Bog'lovchi",
+          "Yuklama",
+          "Ko'makchi",
+          "Ravish"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ot nimani bildiradi?",
+        "options": [
+          "Predmetni",
+          "Belgini",
+          "Harakatni",
+          "Sonni"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Sifat nimani bildiradi?",
+        "options": [
+          "Predmetni",
+          "Harakatni",
+          "Belgini",
+          "Miqdorni"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Fe'l nimani bildiradi?",
+        "options": [
+          "Belgini",
+          "Harakatni",
+          "Predmetni",
+          "Sonni"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Son nimani bildiradi?",
+        "options": [
+          "Harakatni",
+          "Belgini",
+          "Predmetni",
+          "Miqdor va tartibni"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"O'n beshinchi\" so'zi qaysi son turi?",
+        "options": [
+          "Sanoq son",
+          "Tartib son",
+          "Dona son",
+          "Chama son"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Sh\" harflar birikmasi nechta tovushni bildiradi?",
+        "options": [
+          "2",
+          "3",
+          "0",
+          "1"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Qalam\" so'zida nechta unli tovush bor?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Maktab\" so'zida nechta undosh tovush bor?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z \"o'\" harfi bilan boshlanadi?",
+        "options": [
+          "Ona",
+          "O'rik",
+          "Olma",
+          "Uzum"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi juftlik antonim (zid ma'noli)?",
+        "options": [
+          "Katta – yirik",
+          "Chiroyli – go'zal",
+          "Tez – shiddatli",
+          "Baland – past"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Yorug'\" so'zining antonimi qaysi?",
+        "options": [
+          "Nur",
+          "Ravshan",
+          "Qorong'u",
+          "Charaqlagan"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Keng\" so'zining antonimi qaysi?",
+        "options": [
+          "Tor",
+          "Uzun",
+          "Baland",
+          "Katta"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Shirin\" so'zining antonimi qaysi?",
+        "options": [
+          "Totli",
+          "Mazali",
+          "Achchiq",
+          "Yoqimli"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Ilm\" so'zining sinonimi qaysi?",
+        "options": [
+          "Bilim",
+          "Jaholat",
+          "Mehnat",
+          "Boylik"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Dono\" so'zining sinonimi qaysi?",
+        "options": [
+          "Ahmoq",
+          "Sodda",
+          "Dangasa",
+          "Aqlli"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Vatan\" so'zining sinonimi qaysi?",
+        "options": [
+          "Chet el",
+          "Yurt",
+          "Uy",
+          "Maktab"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"O't\" so'zi bir necha ma'noda qo'llanadi (o't, olov, o'tmoq). Bunday so'zlar nima deb ataladi?",
+        "options": [
+          "Omonim",
+          "Sinonim",
+          "Antonim",
+          "Paronim"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi birikmada so'z ko'chma ma'noda ishlatilgan?",
+        "options": [
+          "Temir eshik",
+          "Yog'och stol",
+          "Oltin qo'l",
+          "Tosh devor"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z qo'shma so'z?",
+        "options": [
+          "Kitob",
+          "Ko'zoynak",
+          "Daftar",
+          "Maktab"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z juft so'z?",
+        "options": [
+          "Ko'zoynak",
+          "Oqqush",
+          "Boshqa",
+          "Ota-ona"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z takroriy so'z?",
+        "options": [
+          "Ota-ona",
+          "Oqshom",
+          "Gulzor",
+          "Tez-tez"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z to'g'ri yozilgan?",
+        "options": [
+          "To'gri",
+          "To'g'ri",
+          "Tog'ri",
+          "To'ri"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z to'g'ri yozilgan?",
+        "options": [
+          "Oila",
+          "Oyila",
+          "Oyla",
+          "Ayla"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi so'z to'g'ri yozilgan?",
+        "options": [
+          "Mahsulat",
+          "Mahsulut",
+          "Mahsulot",
+          "Mehsulot"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Qanday go'zal bahor\" gapi oxiriga qaysi tinish belgisi qo'yiladi?",
+        "options": [
+          "Nuqta",
+          "Undov belgisi",
+          "Vergul",
+          "Ikki nuqta"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Sen qayerga borasan\" gapi oxiriga qaysi tinish belgisi qo'yiladi?",
+        "options": [
+          "Nuqta",
+          "Vergul",
+          "Undov belgisi",
+          "So'roq belgisi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Uyushiq bo'laklar orasiga qaysi tinish belgisi qo'yiladi?",
+        "options": [
+          "Nuqta",
+          "Undov belgisi",
+          "Vergul",
+          "Tire"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ikki nuqta (:) qachon qo'yiladi?",
+        "options": [
+          "Sanash oldidan",
+          "Har bir gap boshida",
+          "Faqat so'roq gapda",
+          "Hech qachon"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi so'z bosh harf bilan yoziladi?",
+        "options": [
+          "Bahor",
+          "Yanvar",
+          "Navoiy",
+          "Dushanba"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z bosh harf bilan yoziladi?",
+        "options": [
+          "Toshkent",
+          "daryo",
+          "shahar",
+          "tog'"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Boburnoma\" qaysi janrda yozilgan?",
+        "options": [
+          "Doston",
+          "Roman",
+          "Drama",
+          "Xotira (memuar)"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Alisher Navoiy qaysi asrda yashagan?",
+        "options": [
+          "XIII",
+          "XV",
+          "XVII",
+          "XIX"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Farhod va Shirin\" dostoni qaysi asar tarkibiga kiradi?",
+        "options": [
+          "Xamsa",
+          "Xazoyin ul-maoniy",
+          "Majolis un-nafois",
+          "Mahbub ul-qulub"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Navoiyning to'rt devondan iborat she'riy to'plami qaysi?",
+        "options": [
+          "Xamsa",
+          "Boburnoma",
+          "Xazoyin ul-maoniy",
+          "Layli va Majnun"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Navoiyning turkiy va fors tillarini taqqoslagan asari qaysi?",
+        "options": [
+          "Mahbub ul-qulub",
+          "Muhokamat ul-lug'atayn",
+          "Hayrat ul-abror",
+          "Saddi Iskandariy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Navoiyning shoirlar haqidagi tazkirasi qaysi?",
+        "options": [
+          "Boburnoma",
+          "Xamsa",
+          "Layli va Majnun",
+          "Majolis un-nafois"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Xamsa\" tarkibidagi \"Layli va Majnun\" dostoni kimning asari?",
+        "options": [
+          "Bobur",
+          "Alisher Navoiy",
+          "Fitrat",
+          "Cho'lpon"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Yulduzli tunlar\" romani qaysi tarixiy shaxs haqida?",
+        "options": [
+          "Navoiy",
+          "Ulug'bek",
+          "Amir Temur",
+          "Bobur"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Ulug'bek xazinasi\" romanining muallifi kim?",
+        "options": [
+          "Odil Yoqubov",
+          "Pirimqul Qodirov",
+          "Oybek",
+          "Tog'ay Murod"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Navoiy\" romanining muallifi kim?",
+        "options": [
+          "Abdulla Qahhor",
+          "Cho'lpon",
+          "Oybek",
+          "Abdulla Qodiriy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Shum bola\" qissasining muallifi kim?",
+        "options": [
+          "Oybek",
+          "G'afur G'ulom",
+          "Abdulla Qahhor",
+          "Hamza"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Otamdan qolgan dalalar\" romanining muallifi kim?",
+        "options": [
+          "Odil Yoqubov",
+          "Said Ahmad",
+          "Oybek",
+          "Tog'ay Murod"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Dunyoning ishlari\" asarining muallifi kim?",
+        "options": [
+          "Abdulla Qahhor",
+          "Tog'ay Murod",
+          "O'tkir Hoshimov",
+          "Said Ahmad"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Ruhlar isyoni\" dostonining muallifi kim?",
+        "options": [
+          "Erkin Vohidov",
+          "Abdulla Oripov",
+          "Muhammad Yusuf",
+          "Rauf Parfi"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Oygul bilan Baxtiyor\" dostonining muallifi kim?",
+        "options": [
+          "Zulfiya",
+          "Mirtemir",
+          "Hamid Olimjon",
+          "Uyg'un"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Mehrobdan chayon\" romanining muallifi kim?",
+        "options": [
+          "Abdulla Qodiriy",
+          "Cho'lpon",
+          "Fitrat",
+          "Oybek"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Obid ketmon\" asarining muallifi kim?",
+        "options": [
+          "Cho'lpon",
+          "Hamza",
+          "Oybek",
+          "Abdulla Qodiriy"
+        ],
+        "answer": 3
+      }
+    ],
+    "3": [
+      {
+        "q": "\"Zaharli hayot\" dramasining muallifi kim?",
+        "options": [
+          "Fitrat",
+          "Hamza",
+          "Cho'lpon",
+          "Abdulla Qodiriy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Jaloliddin Manguberdi\" dramasining muallifi kim?",
+        "options": [
+          "Maqsud Shayxzoda",
+          "Oybek",
+          "Hamza",
+          "Cho'lpon"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Sarob\" romanining muallifi kim?",
+        "options": [
+          "Oybek",
+          "Abdulla Qodiriy",
+          "Abdulla Qahhor",
+          "G'afur G'ulom"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Qo'shchinor chiroqlari\" asarining muallifi kim?",
+        "options": [
+          "G'afur G'ulom",
+          "Abdulla Qahhor",
+          "Oybek",
+          "Said Ahmad"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Ufq\" romanining muallifi kim?",
+        "options": [
+          "Abdulla Qahhor",
+          "Odil Yoqubov",
+          "O'tkir Hoshimov",
+          "Said Ahmad"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Hind sayyohi\" asarining muallifi kim?",
+        "options": [
+          "Cho'lpon",
+          "Fitrat",
+          "Abdulla Qodiriy",
+          "Hamza"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Buzilgan o'lkaga\" she'rining muallifi kim?",
+        "options": [
+          "Fitrat",
+          "Oybek",
+          "Hamza",
+          "Cho'lpon"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Muqimiy qaysi shaharda yashab ijod qilgan?",
+        "options": [
+          "Qo'qon",
+          "Buxoro",
+          "Xiva",
+          "Termiz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Furqat qaysi shaharda tug'ilgan?",
+        "options": [
+          "Samarqand",
+          "Buxoro",
+          "Qo'qon",
+          "Andijon"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Qutadg'u bilig\" asari qaysi asrda yozilgan?",
+        "options": [
+          "XIX",
+          "XI",
+          "XVI",
+          "XX"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ahmad Yassaviyning mashhur asari qaysi?",
+        "options": [
+          "Boburnoma",
+          "Xamsa",
+          "Devonu lug'otit turk",
+          "Hikmat"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Go'ro'g'li\" nima?",
+        "options": [
+          "Roman",
+          "Drama",
+          "Xalq dostonlari turkumi",
+          "Ilmiy asar"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dostonlarni kuylovchi xalq san'atkori kim deyiladi?",
+        "options": [
+          "Baxshi",
+          "Askiyachi",
+          "Masxaraboz",
+          "Dutorchi"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Askiya nima?",
+        "options": [
+          "Qo'shiq",
+          "Doston",
+          "Hajviy so'z musobaqasi",
+          "Ertak"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Topishmoq nima?",
+        "options": [
+          "Yashirin ma'noli savol",
+          "Doston",
+          "Roman",
+          "Maqol"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Maqol nima?",
+        "options": [
+          "Roman",
+          "Doston",
+          "Drama",
+          "Xalq donoligini ifodalovchi qisqa hikmatli gap"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ruboiy necha misradan iborat?",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bayt necha misradan iborat?",
+        "options": [
+          "1",
+          "3",
+          "4",
+          "2"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ertak qaysi turga kiradi?",
+        "options": [
+          "Dramaturgiya",
+          "Lirika",
+          "Xalq og'zaki ijodi",
+          "Publitsistika"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Adabiyotning uch asosiy turi qaysilar?",
+        "options": [
+          "Nasr, nazm, she'r",
+          "Epos, lirika, drama",
+          "Roman, doston, ertak",
+          "Hikoya, qissa, roman"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Hikoyadan kattaroq, romandan kichikroq epik asar qanday ataladi?",
+        "options": [
+          "Doston",
+          "Drama",
+          "She'r",
+          "Qissa"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Hamza Hakimzoda Niyoziy qaysi yili vafot etgan?",
+        "options": [
+          "1917",
+          "1925",
+          "1929",
+          "1938"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Abdulla Qodiriy qaysi shaharda tug'ilgan?",
+        "options": [
+          "Toshkent",
+          "Samarqand",
+          "Andijon",
+          "Buxoro"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Cho'lpon qaysi shaharda tug'ilgan?",
+        "options": [
+          "Toshkent",
+          "Qo'qon",
+          "Samarqand",
+          "Andijon"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Qutlug' qon\" romanining muallifi kim?",
+        "options": [
+          "Abdulla Qodiriy",
+          "Oybek",
+          "Abdulla Qahhor",
+          "Cho'lpon"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Yulduzli tunlar\" romanining muallifi kim?",
+        "options": [
+          "Odil Yoqubov",
+          "Oybek",
+          "Pirimqul Qodirov",
+          "Said Ahmad"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Qanday?\" so'rog'iga javob bo'ladigan so'z turkumi qaysi?",
+        "options": [
+          "Sifat",
+          "Fe'l",
+          "Ot",
+          "Son"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Nima qildi?\" so'rog'iga javob bo'ladigan so'z turkumi qaysi?",
+        "options": [
+          "Ot",
+          "Sifat",
+          "Son",
+          "Fe'l"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Necha?\" so'rog'iga javob bo'ladigan so'z turkumi qaysi?",
+        "options": [
+          "Ot",
+          "Fe'l",
+          "Son",
+          "Olmosh"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z fe'l?",
+        "options": [
+          "Daftar",
+          "O'qimoq",
+          "Yashil",
+          "Besh"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Kitoblarimiz\" so'zida nechta qo'shimcha bor?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"O'qituvchi\" so'zining o'zagi qaysi?",
+        "options": [
+          "O'qituv",
+          "O'qituvchi",
+          "O'qit",
+          "O'qi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Gulzor\" so'zi qanday usulda yasalgan?",
+        "options": [
+          "Qo'shma",
+          "Juft",
+          "Qo'shimcha yordamida",
+          "Takroriy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Olma-nok\" so'zi qaysi turdagi so'z?",
+        "options": [
+          "Juft so'z",
+          "Qo'shma so'z",
+          "Takroriy so'z",
+          "Qisqartma so'z"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"O'zbekiston\" so'zi qaysi so'z turkumiga kiradi?",
+        "options": [
+          "Sifat",
+          "Ot",
+          "Fe'l",
+          "Son"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z atoqli ot?",
+        "options": [
+          "Daryo",
+          "Shahar",
+          "Tog'",
+          "Navoiy"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z turdosh ot?",
+        "options": [
+          "Daryo",
+          "Samarqand",
+          "Navoiy",
+          "Orol"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Kim?\" so'rog'iga javob bo'ladigan ot qaysi?",
+        "options": [
+          "Daftar",
+          "Uy",
+          "O'qituvchi",
+          "Qalam"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi qo'shimcha ko'plik qo'shimchasi?",
+        "options": [
+          "-ning",
+          "-lar",
+          "-ga",
+          "-ni"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'zda egalik qo'shimchasi bor?",
+        "options": [
+          "Kitoblar",
+          "Kitobga",
+          "Kitobni",
+          "Kitobim"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z ravish?",
+        "options": [
+          "Sekin",
+          "Daftar",
+          "Beshta",
+          "Men"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi so'z olmosh?",
+        "options": [
+          "Daftar",
+          "Baland",
+          "Biz",
+          "To'rt"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Gapning oxirida fikr tugaganini bildiruvchi tinish belgisi qaysi?",
+        "options": [
+          "Vergul",
+          "Nuqta",
+          "Tire",
+          "Qavs"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bir she'riy satr nima deb ataladi?",
+        "options": [
+          "Bayt",
+          "Band",
+          "Qofiya",
+          "Misra"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Roman nima?",
+        "options": [
+          "Katta hajmli epik asar",
+          "Qisqa she'r",
+          "Maqol",
+          "Topishmoq"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbek tiliga davlat tili maqomi qaysi yili berilgan?",
+        "options": [
+          "1985",
+          "1991",
+          "1989",
+          "1992"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbek tili bayrami qaysi sanada nishonlanadi?",
+        "options": [
+          "21 oktyabr",
+          "1 sentyabr",
+          "9 may",
+          "8 dekabr"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Alisher Navoiy qaysi yili tug'ilgan?",
+        "options": [
+          "1383",
+          "1483",
+          "1501",
+          "1441"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Zahiriddin Bobur qaysi yili tug'ilgan?",
+        "options": [
+          "1441",
+          "1483",
+          "1530",
+          "1336"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Abdulla Qodiriy qaysi yili qatag'on qilingan?",
+        "options": [
+          "1938",
+          "1937",
+          "1929",
+          "1941"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "geo": {
+    "1": [
+      {
+        "q": "O'zbekiston poytaxti qaysi shahar?",
+        "options": [
+          "Samarqand",
+          "Buxoro",
+          "Toshkent",
+          "Namangan"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dunyodagi eng katta okean qaysi?",
+        "options": [
+          "Atlantika",
+          "Tinch",
+          "Hind",
+          "Shimoliy Muz"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Dunyodagi eng baland tog' cho'qqisi qaysi?",
+        "options": [
+          "K2",
+          "Elbrus",
+          "Everest",
+          "Monblan"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Orol dengizi qaysi ikki davlat hududida joylashgan?",
+        "options": [
+          "O'zbekiston va Qozog'iston",
+          "Turkmaniston va Eron",
+          "Qirg'iziston va Tojikiston",
+          "Afg'oniston va Pokiston"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Dunyodagi eng katta qit'a qaysi?",
+        "options": [
+          "Afrika",
+          "Osiyo",
+          "Shimoliy Amerika",
+          "Yevropa"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yaponiya poytaxti qaysi shahar?",
+        "options": [
+          "Tokio",
+          "Seul",
+          "Pekin",
+          "Bangkok"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Dunyodagi eng katta issiq cho'l qaysi?",
+        "options": [
+          "Qoraqum",
+          "Sahara",
+          "Gobi",
+          "Qizilqum"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Fransiya poytaxti qaysi shahar?",
+        "options": [
+          "Berlin",
+          "Madrid",
+          "Parij",
+          "Rim"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dunyodagi eng kichik qit'a qaysi?",
+        "options": [
+          "Antarktida",
+          "Yevropa",
+          "Avstraliya",
+          "Janubiy Amerika"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Maydoni jihatidan dunyodagi eng katta davlat qaysi?",
+        "options": [
+          "Xitoy",
+          "AQSh",
+          "Kanada",
+          "Rossiya"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "O'zbekistonda nechta viloyat bor (Qoraqalpog'iston Respublikasi va Toshkent shahridan tashqari)?",
+        "options": [
+          "10",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekiston nechta davlat bilan chegaradosh?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Dunyodagi eng baland sharshara qaysi?",
+        "options": [
+          "Niagara",
+          "Viktoriya",
+          "Anxel",
+          "Iguasu"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Misr ehromlari qaysi shahar yaqinida joylashgan?",
+        "options": [
+          "Iskandariya",
+          "Luksor",
+          "Qohira (Giza)",
+          "Asvon"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Italiya poytaxti qaysi shahar?",
+        "options": [
+          "Milan",
+          "Rim",
+          "Venetsiya",
+          "Neapol"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Dunyodagi eng chuqur ko'l qaysi?",
+        "options": [
+          "Viktoriya",
+          "Baykal",
+          "Kaspiy",
+          "Orol"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Amazonka daryosi qaysi qit'ada joylashgan?",
+        "options": [
+          "Afrika",
+          "Osiyo",
+          "Janubiy Amerika",
+          "Avstraliya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dunyodagi eng kichik okean qaysi?",
+        "options": [
+          "Hind",
+          "Atlantika",
+          "Shimoliy Muz okeani",
+          "Tinch"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Turkiya poytaxti qaysi shahar?",
+        "options": [
+          "Istanbul",
+          "Anqara",
+          "Izmir",
+          "Bursa"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Eng sovuq qit'a qaysi?",
+        "options": [
+          "Antarktida",
+          "Shimoliy Amerika",
+          "Yevropa",
+          "Osiyo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Yevropa va Osiyoni ajratib turuvchi tog'lar qaysi?",
+        "options": [
+          "Alp",
+          "Ural",
+          "Kavkaz",
+          "Pomir"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"O'lik dengiz\" qaysi mintaqada joylashgan?",
+        "options": [
+          "Afrika",
+          "Yaqin Sharq",
+          "Janubiy Amerika",
+          "Avstraliya"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Toshkent shahri qaysi daryo bo'yida joylashgan?",
+        "options": [
+          "Zarafshon",
+          "Chirchiq",
+          "Surxondaryo",
+          "Qashqadaryo"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Samarqand qaysi daryo vodiysida joylashgan?",
+        "options": [
+          "Zarafshon",
+          "Chirchiq",
+          "Amudaryo",
+          "Qashqadaryo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Kanada poytaxti qaysi shahar?",
+        "options": [
+          "Toronto",
+          "Vankuver",
+          "Monreal",
+          "Ottava"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Maydoni bo'yicha dunyodagi eng katta ko'l qaysi?",
+        "options": [
+          "Baykal",
+          "Viktoriya",
+          "Kaspiy",
+          "Superior"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dunyodagi eng katta orol qaysi?",
+        "options": [
+          "Grenlandiya",
+          "Madagaskar",
+          "Borneo",
+          "Yangi Gvineya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Mariana cho'kmasi qaysi okeanda joylashgan?",
+        "options": [
+          "Atlantika",
+          "Hind",
+          "Shimoliy Muz",
+          "Tinch"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Dunyodagi eng kichik davlat qaysi?",
+        "options": [
+          "Monako",
+          "Vatikan",
+          "San-Marino",
+          "Lixtenshteyn"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Aholisi eng ko'p qit'a qaysi?",
+        "options": [
+          "Osiyo",
+          "Afrika",
+          "Yevropa",
+          "Shimoliy Amerika"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nil daryosi qaysi dengizga quyiladi?",
+        "options": [
+          "Qizil dengiz",
+          "Qora dengiz",
+          "O'rta yer dengizi",
+          "Kaspiy dengizi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Volga daryosi qaysi dengizga quyiladi?",
+        "options": [
+          "Qora dengiz",
+          "Kaspiy dengizi",
+          "Boltiq dengizi",
+          "Azov dengizi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Amudaryo tarixan qaysi dengizga quyilgan?",
+        "options": [
+          "Kaspiy",
+          "Qora",
+          "Barens",
+          "Orol"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Balxash ko'li qaysi davlatda joylashgan?",
+        "options": [
+          "O'zbekiston",
+          "Qirg'iziston",
+          "Tojikiston",
+          "Qozog'iston"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Issiqko'l qaysi davlatda joylashgan?",
+        "options": [
+          "Qozog'iston",
+          "Qirg'iziston",
+          "Tojikiston",
+          "Turkmaniston"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Pomir tog'lari asosan qaysi davlat hududida joylashgan?",
+        "options": [
+          "Tojikiston",
+          "Turkmaniston",
+          "Qozog'iston",
+          "Eron"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbekistonning eng baland cho'qqisi qaysi?",
+        "options": [
+          "Chimyon",
+          "Beshtor",
+          "Xazrati Sulton",
+          "Zarafshon"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qoraqum cho'li asosan qaysi davlat hududida joylashgan?",
+        "options": [
+          "O'zbekiston",
+          "Turkmaniston",
+          "Qozog'iston",
+          "Eron"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qizilqum cho'li qaysi ikki daryo oralig'ida joylashgan?",
+        "options": [
+          "Chirchiq va Ohangaron",
+          "Zarafshon va Qashqadaryo",
+          "Surxondaryo va Sherobod",
+          "Amudaryo va Sirdaryo"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Farg'ona vodiysi nechta davlat hududiga tarqalgan?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbekistonda maydoni eng katta viloyat qaysi?",
+        "options": [
+          "Navoiy",
+          "Samarqand",
+          "Farg'ona",
+          "Andijon"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Termiz shahri qaysi viloyatda joylashgan?",
+        "options": [
+          "Qashqadaryo",
+          "Buxoro",
+          "Surxondaryo",
+          "Navoiy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qarshi shahri qaysi viloyat markazi?",
+        "options": [
+          "Qashqadaryo",
+          "Surxondaryo",
+          "Jizzax",
+          "Sirdaryo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nukus qaysi respublikaning poytaxti?",
+        "options": [
+          "Xorazm",
+          "Buxoro",
+          "Navoiy",
+          "Qoraqalpog'iston"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Urganch qaysi viloyat markazi?",
+        "options": [
+          "Buxoro",
+          "Xorazm",
+          "Navoiy",
+          "Jizzax"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Andijon qaysi vodiyda joylashgan?",
+        "options": [
+          "Farg'ona",
+          "Zarafshon",
+          "Surxon",
+          "Toshkent"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Chirchiq shahri qaysi viloyatda joylashgan?",
+        "options": [
+          "Sirdaryo",
+          "Jizzax",
+          "Toshkent",
+          "Samarqand"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Guliston qaysi viloyat markazi?",
+        "options": [
+          "Jizzax",
+          "Sirdaryo",
+          "Navoiy",
+          "Qashqadaryo"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Buxoro shahri qaysi daryo vohasida joylashgan?",
+        "options": [
+          "Sirdaryo",
+          "Amudaryo",
+          "Chirchiq",
+          "Zarafshon"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Namangan qaysi vodiyda joylashgan?",
+        "options": [
+          "Zarafshon",
+          "Surxon",
+          "Toshkent",
+          "Farg'ona"
+        ],
+        "answer": 3
+      }
+    ],
+    "2": [
+      {
+        "q": "Yevropadagi eng uzun daryo qaysi?",
+        "options": [
+          "Dunay",
+          "Volga",
+          "Reyn",
+          "Elba"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Afrikadagi eng baland cho'qqi qaysi?",
+        "options": [
+          "Kilimanjaro",
+          "Elbrus",
+          "Akonkagua",
+          "Keniya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Janubiy Amerikadagi eng baland cho'qqi qaysi?",
+        "options": [
+          "Elbrus",
+          "Denali",
+          "Akonkagua",
+          "Kilimanjaro"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Shimoliy Amerikadagi eng baland cho'qqi qaysi?",
+        "options": [
+          "Akonkagua",
+          "Denali",
+          "Monblan",
+          "Fudziyama"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Alp tog'larining eng baland cho'qqisi qaysi?",
+        "options": [
+          "Elbrus",
+          "Matterxorn",
+          "Everest",
+          "Monblan"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Himolay tog'lari qaysi qit'ada joylashgan?",
+        "options": [
+          "Afrika",
+          "Yevropa",
+          "Osiyo",
+          "Avstraliya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "And tog'lari qaysi qit'ada joylashgan?",
+        "options": [
+          "Janubiy Amerika",
+          "Shimoliy Amerika",
+          "Afrika",
+          "Osiyo"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Missisipi daryosi qaysi davlatda oqadi?",
+        "options": [
+          "Kanada",
+          "Meksika",
+          "AQSh",
+          "Braziliya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Niagara sharsharasi qaysi ikki davlat chegarasida joylashgan?",
+        "options": [
+          "AQSh va Kanada",
+          "AQSh va Meksika",
+          "Kanada va Grenlandiya",
+          "Braziliya va Argentina"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Panama kanali qaysi ikki okeanni bog'laydi?",
+        "options": [
+          "Atlantika va Hind",
+          "Tinch va Hind",
+          "Hind va Shimoliy Muz",
+          "Atlantika va Tinch"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Suvaysh kanali qaysi ikki dengizni bog'laydi?",
+        "options": [
+          "Qora va Kaspiy",
+          "O'rta yer va Qizil",
+          "Boltiq va Shimoliy",
+          "Qora va O'rta yer"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yaponiyaning eng baland tog'i qaysi?",
+        "options": [
+          "Fudzi",
+          "Everest",
+          "Elbrus",
+          "Kilimanjaro"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Rossiya poytaxti qaysi?",
+        "options": [
+          "Sankt-Peterburg",
+          "Kiyev",
+          "Moskva",
+          "Minsk"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Germaniya poytaxti qaysi?",
+        "options": [
+          "Myunxen",
+          "Berlin",
+          "Gamburg",
+          "Vena"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ispaniya poytaxti qaysi?",
+        "options": [
+          "Barselona",
+          "Lissabon",
+          "Valensiya",
+          "Madrid"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Buyuk Britaniya poytaxti qaysi?",
+        "options": [
+          "Manchester",
+          "Edinburg",
+          "Liverpul",
+          "London"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Xitoy poytaxti qaysi?",
+        "options": [
+          "Shanxay",
+          "Pekin",
+          "Gonkong",
+          "Guanchjou"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Hindiston poytaxti qaysi?",
+        "options": [
+          "Nyu-Dehli",
+          "Mumbay",
+          "Kalkutta",
+          "Bangalor"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Misr poytaxti qaysi?",
+        "options": [
+          "Iskandariya",
+          "Luksor",
+          "Qohira",
+          "Asvon"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Braziliya poytaxti qaysi?",
+        "options": [
+          "Rio-de-Janeyro",
+          "Braziliya",
+          "San-Paulu",
+          "Salvador"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Avstraliya poytaxti qaysi?",
+        "options": [
+          "Sidney",
+          "Melburn",
+          "Pert",
+          "Kanberra"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Argentina poytaxti qaysi?",
+        "options": [
+          "Santyago",
+          "Lima",
+          "Buenos-Ayres",
+          "Montevideo"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qozog'iston poytaxti qaysi?",
+        "options": [
+          "Astana",
+          "Olmaota",
+          "Shymkent",
+          "Qaraganda"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qirg'iziston poytaxti qaysi?",
+        "options": [
+          "Osh",
+          "Jalolobod",
+          "Bishkek",
+          "Norin"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Tojikiston poytaxti qaysi?",
+        "options": [
+          "Dushanbe",
+          "Xo'jand",
+          "Kulob",
+          "Panjakent"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Turkmaniston poytaxti qaysi?",
+        "options": [
+          "Mari",
+          "Turkmanboshi",
+          "Dashoguz",
+          "Ashgabat"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Afg'oniston poytaxti qaysi?",
+        "options": [
+          "Qandahor",
+          "Kobul",
+          "Hirot",
+          "Mozori Sharif"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Eron poytaxti qaysi?",
+        "options": [
+          "Isfahon",
+          "Sheroz",
+          "Tabriz",
+          "Tehron"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Janubiy Koreya poytaxti qaysi?",
+        "options": [
+          "Pusan",
+          "Pxenyan",
+          "Seul",
+          "Tokio"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Saudiya Arabistoni poytaxti qaysi?",
+        "options": [
+          "Ar-Riyod",
+          "Makka",
+          "Madina",
+          "Jidda"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ozarbayjon poytaxti qaysi?",
+        "options": [
+          "Gyanja",
+          "Boku",
+          "Tbilisi",
+          "Yerevan"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Gruziya poytaxti qaysi?",
+        "options": [
+          "Batumi",
+          "Boku",
+          "Yerevan",
+          "Tbilisi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ukraina poytaxti qaysi?",
+        "options": [
+          "Xarkov",
+          "Odessa",
+          "Kiyev",
+          "Lvov"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Polsha poytaxti qaysi?",
+        "options": [
+          "Varshava",
+          "Krakov",
+          "Gdansk",
+          "Vroslav"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Yunoniston poytaxti qaysi?",
+        "options": [
+          "Salonika",
+          "Afina",
+          "Patra",
+          "Rodos"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Portugaliya poytaxti qaysi?",
+        "options": [
+          "Porto",
+          "Madrid",
+          "Koimbra",
+          "Lissabon"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Shvetsiya poytaxti qaysi?",
+        "options": [
+          "Oslo",
+          "Kopengagen",
+          "Stokgolm",
+          "Xelsinki"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Norvegiya poytaxti qaysi?",
+        "options": [
+          "Stokgolm",
+          "Oslo",
+          "Bergen",
+          "Xelsinki"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Finlyandiya poytaxti qaysi?",
+        "options": [
+          "Oslo",
+          "Tallin",
+          "Riga",
+          "Xelsinki"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Avstriya poytaxti qaysi?",
+        "options": [
+          "Zalsburg",
+          "Gras",
+          "Insbruk",
+          "Vena"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Shveytsariya poytaxti qaysi?",
+        "options": [
+          "Syurix",
+          "Bern",
+          "Jeneva",
+          "Bazel"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Niderlandiya poytaxti qaysi?",
+        "options": [
+          "Amsterdam",
+          "Rotterdam",
+          "Gaaga",
+          "Utrext"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Belgiya poytaxti qaysi?",
+        "options": [
+          "Antverpen",
+          "Bryugge",
+          "Bryussel",
+          "Gent"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Meksika poytaxti qaysi?",
+        "options": [
+          "Gvadalaxara",
+          "Mexiko",
+          "Kankun",
+          "Monterrey"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kuba poytaxti qaysi?",
+        "options": [
+          "Santyago-de-Kuba",
+          "Varadero",
+          "Kamagey",
+          "Gavana"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Peru poytaxti qaysi?",
+        "options": [
+          "Kusko",
+          "Kito",
+          "Lima",
+          "Bogota"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Chili poytaxti qaysi?",
+        "options": [
+          "Santyago",
+          "Valparaiso",
+          "Lima",
+          "La-Pas"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nigeriya poytaxti qaysi?",
+        "options": [
+          "Lagos",
+          "Abuja",
+          "Kano",
+          "Ibadan"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Keniya poytaxti qaysi?",
+        "options": [
+          "Mombasa",
+          "Kisumu",
+          "Dar-es-Salom",
+          "Nayrobi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Efiopiya poytaxti qaysi?",
+        "options": [
+          "Addis-Abeba",
+          "Xartum",
+          "Nayrobi",
+          "Kampala"
+        ],
+        "answer": 0
+      }
+    ],
+    "3": [
+      {
+        "q": "Marokash poytaxti qaysi?",
+        "options": [
+          "Kasablanka",
+          "Marrakesh",
+          "Rabat",
+          "Fes"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Tailand poytaxti qaysi?",
+        "options": [
+          "Pxuket",
+          "Bangkok",
+          "Chiangmay",
+          "Pattaya"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Vyetnam poytaxti qaysi?",
+        "options": [
+          "Xoshimin",
+          "Danang",
+          "Xayfon",
+          "Xanoy"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Pokiston poytaxti qaysi?",
+        "options": [
+          "Islomobod",
+          "Karachi",
+          "Lahor",
+          "Peshovar"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Bangladesh poytaxti qaysi?",
+        "options": [
+          "Chittagong",
+          "Sylhet",
+          "Dakka",
+          "Xulna"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Mo'g'uliston poytaxti qaysi?",
+        "options": [
+          "Darxon",
+          "Ulan-Bator",
+          "Erdenet",
+          "Xovd"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Iroq poytaxti qaysi?",
+        "options": [
+          "Basra",
+          "Mosul",
+          "Erbil",
+          "Bag'dod"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Iordaniya poytaxti qaysi?",
+        "options": [
+          "Aqaba",
+          "Zarqo",
+          "Amman",
+          "Irbid"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Nil daryosi qaysi tomonga oqadi?",
+        "options": [
+          "Shimolga",
+          "Janubga",
+          "Sharqqa",
+          "G'arbga"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Amazonka daryosi qaysi okeanga quyiladi?",
+        "options": [
+          "Tinch",
+          "Hind",
+          "Atlantika",
+          "Shimoliy Muz"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Gang daryosi asosan qaysi mamlakatda oqadi?",
+        "options": [
+          "Xitoy",
+          "Hindiston",
+          "Eron",
+          "Misr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yanszi daryosi qaysi mamlakatda oqadi?",
+        "options": [
+          "Hindiston",
+          "Yaponiya",
+          "Mo'g'uliston",
+          "Xitoy"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Dunay daryosi qaysi dengizga quyiladi?",
+        "options": [
+          "Qora dengiz",
+          "Boltiq dengizi",
+          "Shimoliy dengiz",
+          "Adriatika dengizi"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Reyn daryosi qaysi dengizga quyiladi?",
+        "options": [
+          "Qora dengiz",
+          "Boltiq dengizi",
+          "Shimoliy dengiz",
+          "O'rta yer dengizi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dunyodagi eng katta yarimorol qaysi?",
+        "options": [
+          "Hindiston",
+          "Arabiston",
+          "Skandinaviya",
+          "Apennin"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yaponiyada nechta asosiy katta orol bor?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Madagaskar oroli qaysi okeanda joylashgan?",
+        "options": [
+          "Hind",
+          "Tinch",
+          "Atlantika",
+          "Shimoliy Muz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Gavayi orollari qaysi okeanda joylashgan?",
+        "options": [
+          "Hind",
+          "Atlantika",
+          "Tinch",
+          "Shimoliy Muz"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Kengurular tabiiy holda qaysi qit'ada yashaydi?",
+        "options": [
+          "Afrika",
+          "Avstraliya",
+          "Janubiy Amerika",
+          "Osiyo"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Imperator pingvini qaysi qit'ada yashaydi?",
+        "options": [
+          "Arktika",
+          "Afrika",
+          "Avstraliya",
+          "Antarktida"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Oq (qutb) ayiqlari qaysi hududda yashaydi?",
+        "options": [
+          "Arktika",
+          "Antarktida",
+          "Afrika",
+          "Avstraliya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Gobi cho'li qaysi ikki davlat hududida joylashgan?",
+        "options": [
+          "Hindiston va Pokiston",
+          "Eron va Iroq",
+          "Mo'g'uliston va Xitoy",
+          "Qozog'iston va Rossiya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Sahara cho'li qaysi qit'ada joylashgan?",
+        "options": [
+          "Osiyo",
+          "Afrika",
+          "Avstraliya",
+          "Yevropa"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Tundra qaysi iqlim mintaqasiga xos?",
+        "options": [
+          "Tropik",
+          "Mo'tadil",
+          "Subtropik",
+          "Sovuq (arktik va subarktik)"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ekvator Yer sharini qaysi yarim sharlarga ajratadi?",
+        "options": [
+          "Shimoliy va janubiy",
+          "Sharqiy va g'arbiy",
+          "Faqat shimoliy",
+          "Qit'alarga"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Grinvich meridiani Yer sharini qaysi yarim sharlarga ajratadi?",
+        "options": [
+          "Shimoliy va janubiy",
+          "Quruqlik va okean",
+          "Sharqiy va g'arbiy",
+          "Tropik va qutb"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Yer sharining shakli qanday?",
+        "options": [
+          "Yassi",
+          "Geoid (sharsimon)",
+          "Kub",
+          "Silindr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yer o'z o'qi atrofida taxminan necha soatda to'liq aylanadi?",
+        "options": [
+          "12",
+          "365",
+          "48",
+          "24"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Yer Quyosh atrofida to'liq aylanishi uchun qancha vaqt ketadi?",
+        "options": [
+          "1 yil (365 kun)",
+          "1 oy",
+          "24 soat",
+          "10 yil"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Yer yuzasining taxminan necha foizi suv bilan qoplangan?",
+        "options": [
+          "50%",
+          "61%",
+          "71%",
+          "91%"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Balandlik har 1000 m ga ortganda havo harorati taxminan necha gradusga pasayadi?",
+        "options": [
+          "1°",
+          "6°",
+          "12°",
+          "20°"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Musson shamollari qaysi hududda xarakterli?",
+        "options": [
+          "Arktika",
+          "Antarktida",
+          "Yevropa",
+          "Janubiy Osiyo"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Geografik kenglik qaysi chiziqdan boshlab o'lchanadi?",
+        "options": [
+          "Ekvatordan",
+          "Grinvich meridianidan",
+          "Qutbdan",
+          "Tropikdan"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Geografik uzunlik qaysi meridianga nisbatan o'lchanadi?",
+        "options": [
+          "Ekvator",
+          "Tropik",
+          "Grinvich",
+          "Qutb doirasi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Shimoliy qutb qaysi okeanda joylashgan?",
+        "options": [
+          "Tinch",
+          "Shimoliy Muz",
+          "Hind",
+          "Atlantika"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Singapur qaysi qit'ada joylashgan?",
+        "options": [
+          "Yevropa",
+          "Afrika",
+          "Avstraliya",
+          "Osiyo"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi davlat O'zbekiston bilan chegaradosh emas?",
+        "options": [
+          "Eron",
+          "Tojikiston",
+          "Afg'oniston",
+          "Qirg'iziston"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbekiston hududining maydoni taxminan qancha?",
+        "options": [
+          "150 ming km²",
+          "300 ming km²",
+          "449 ming km²",
+          "700 ming km²"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbekiston aholisi taxminan qancha (2024–2025-yillar)?",
+        "options": [
+          "25 mln",
+          "37 mln",
+          "50 mln",
+          "60 mln"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekistonning eng yirik shahri qaysi?",
+        "options": [
+          "Samarqand",
+          "Buxoro",
+          "Namangan",
+          "Toshkent"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Zarafshon daryosi qaysi shaharlardan o'tadi?",
+        "options": [
+          "Samarqand va Buxoro",
+          "Toshkent va Chirchiq",
+          "Termiz va Qarshi",
+          "Nukus va Urganch"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbekiston iqlimi qanday?",
+        "options": [
+          "Tropik",
+          "Ekvatorial",
+          "Keskin kontinental",
+          "Dengiz iqlimi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbekistonda eng sovuq oy qaysi?",
+        "options": [
+          "Dekabr",
+          "Yanvar",
+          "Mart",
+          "Noyabr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekistonda eng issiq oy qaysi?",
+        "options": [
+          "May",
+          "Iyun",
+          "Avgust",
+          "Iyul"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Chorvoq suv ombori qaysi viloyatda joylashgan?",
+        "options": [
+          "Toshkent",
+          "Samarqand",
+          "Namangan",
+          "Buxoro"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Dunyodagi eng uzun tog' tizmasi qaysi?",
+        "options": [
+          "Himolay",
+          "Alp",
+          "And",
+          "Ural"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Amudaryo qaysi tog'lardan boshlanadi?",
+        "options": [
+          "Pomir",
+          "Oltoy",
+          "Ural",
+          "Kavkaz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Sirdaryo qaysi ikki daryoning qo'shilishidan hosil bo'ladi?",
+        "options": [
+          "Amudaryo va Zarafshon",
+          "Chirchiq va Ohangaron",
+          "Surxondaryo va Sherobod",
+          "Norin va Qoradaryo"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Orol dengizi qurishining asosiy sababi nima?",
+        "options": [
+          "Zilzila",
+          "Daryolar suvidan sug'orishda ko'p foydalanilishi",
+          "Vulqon",
+          "Yomg'irning ko'payishi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi tog' tizimi \"Dunyo tomi\" deb ataladi?",
+        "options": [
+          "Alp",
+          "Kavkaz",
+          "Pomir",
+          "Ural"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "eng": {
+    "1": [
+      {
+        "q": "\"Apple\" so'zining o'zbekcha tarjimasi qaysi?",
+        "options": [
+          "Olma",
+          "Nok",
+          "Uzum",
+          "Shaftoli"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: She ___ to school every day.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "gone"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Beautiful\" so'zining sinonimi qaysi?",
+        "options": [
+          "ugly",
+          "pretty",
+          "bad",
+          "small"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Go\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "goed",
+          "went",
+          "gone",
+          "going"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Book\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "bookes",
+          "books",
+          "bookies",
+          "book"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I ___ a student.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Hot\" so'zining antonimi qaysi?",
+        "options": [
+          "big",
+          "cold",
+          "fast",
+          "new"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: They ___ playing football now.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "was"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Child\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "childs",
+          "childes",
+          "children",
+          "childrens"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: If it rains, we ___ at home.",
+        "options": [
+          "stay",
+          "will stay",
+          "stayed",
+          "staying"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Library\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Kutubxona",
+          "Do'kon",
+          "Kasalxona",
+          "Bog'"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Write\" fe'lining o'tgan zamon (Past Simple) shakli qaysi?",
+        "options": [
+          "writed",
+          "wrote",
+          "written",
+          "writing"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: He is ___ than his brother.",
+        "options": [
+          "tall",
+          "taller",
+          "tallest",
+          "more tall"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z ot (noun)?",
+        "options": [
+          "quickly",
+          "happy",
+          "happiness",
+          "beautifully"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I have lived here ___ 2015.",
+        "options": [
+          "for",
+          "since",
+          "during",
+          "from"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Thank you\" ga qaysi javob mos keladi?",
+        "options": [
+          "You're welcome",
+          "Good luck",
+          "Excuse me",
+          "Goodbye"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: There ___ two books on the table.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Big\" so'zining sinonimi qaysi?",
+        "options": [
+          "small",
+          "tiny",
+          "large",
+          "short"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Yesterday\" so'zi bilan qaysi zamon ishlatiladi?",
+        "options": [
+          "Present Simple",
+          "Past Simple",
+          "Future Simple",
+          "Present Perfect"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: She can ___ English very well.",
+        "options": [
+          "speaks",
+          "speak",
+          "speaking",
+          "spoke"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Tomorrow\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Kecha",
+          "Bugun",
+          "Ertaga",
+          "Hozir"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: Where ___ you from?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "do"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi gap to'g'ri?",
+        "options": [
+          "He don't like tea.",
+          "He doesn't likes tea.",
+          "He doesn't like tea.",
+          "He not like tea."
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: This book ___ by millions of people.",
+        "options": [
+          "is read",
+          "reads",
+          "read",
+          "reading"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: I wish I ___ more time.",
+        "options": [
+          "have",
+          "had",
+          "has",
+          "having"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: He ___ football on Sundays.",
+        "options": [
+          "plays",
+          "play",
+          "playing",
+          "played"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: We ___ breakfast at 8 every morning.",
+        "options": [
+          "has",
+          "having",
+          "have",
+          "haves"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: She ___ watching TV now.",
+        "options": [
+          "do",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I ___ my homework yesterday.",
+        "options": [
+          "do",
+          "doing",
+          "does",
+          "did"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: They ___ to London last year.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "went"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: Tomorrow I ___ visit my grandmother.",
+        "options": [
+          "am",
+          "will",
+          "did",
+          "was"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: There ___ a cat under the table.",
+        "options": [
+          "is",
+          "are",
+          "am",
+          "be"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: How ___ apples are there in the basket?",
+        "options": [
+          "much",
+          "a lot",
+          "many",
+          "any"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: How ___ water do you drink every day?",
+        "options": [
+          "many",
+          "much",
+          "few",
+          "a"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I don't have ___ money.",
+        "options": [
+          "a",
+          "many",
+          "few",
+          "any"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: She is ___ than her sister.",
+        "options": [
+          "tall",
+          "tallest",
+          "taller",
+          "more tall"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: This is the ___ book I have ever read.",
+        "options": [
+          "best",
+          "good",
+          "better",
+          "most good"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: He is ___ honest man.",
+        "options": [
+          "a",
+          "the",
+          "an",
+          "some"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I saw ___ elephant at the zoo.",
+        "options": [
+          "an",
+          "a",
+          "the",
+          "some"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: The sun rises in ___ east.",
+        "options": [
+          "a",
+          "an",
+          "some",
+          "the"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: She is interested ___ music.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "for"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I'm afraid ___ spiders.",
+        "options": [
+          "of",
+          "from",
+          "on",
+          "with"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: He arrived ___ Tashkent yesterday.",
+        "options": [
+          "on",
+          "to",
+          "in",
+          "at"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: The meeting starts ___ 9 o'clock.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "by"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: My birthday is ___ May.",
+        "options": [
+          "at",
+          "on",
+          "to",
+          "in"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: We have English class ___ Monday.",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "on"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: She has lived here ___ five years.",
+        "options": [
+          "since",
+          "for",
+          "from",
+          "during"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I have known him ___ 2010.",
+        "options": [
+          "since",
+          "for",
+          "ago",
+          "during"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: Have you ___ been to Paris?",
+        "options": [
+          "yet",
+          "already",
+          "ever",
+          "just"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I haven't finished my work ___.",
+        "options": [
+          "already",
+          "yet",
+          "ever",
+          "since"
+        ],
+        "answer": 1
+      }
+    ],
+    "2": [
+      {
+        "q": "Complete: If I ___ rich, I would travel the world.",
+        "options": [
+          "am",
+          "will be",
+          "be",
+          "were"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: If you heat ice, it ___.",
+        "options": [
+          "will freezes",
+          "freeze",
+          "melts",
+          "melting"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I would have called you if I ___ your number.",
+        "options": [
+          "had had",
+          "have",
+          "had",
+          "would have"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: She asked me where I ___.",
+        "options": [
+          "live",
+          "am living",
+          "lived",
+          "lives"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: He said that he ___ tired.",
+        "options": [
+          "was",
+          "is",
+          "be",
+          "were"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: The letter ___ yesterday.",
+        "options": [
+          "wrote",
+          "is written",
+          "writes",
+          "was written"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: English ___ all over the world.",
+        "options": [
+          "speaks",
+          "is spoken",
+          "speaking",
+          "spoke"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: The bridge ___ in 1990.",
+        "options": [
+          "was built",
+          "built",
+          "is built",
+          "building"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: You ___ wear a seat belt. It's the law.",
+        "options": [
+          "can",
+          "might",
+          "must",
+          "would"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: You ___ smoke here. It's forbidden.",
+        "options": [
+          "must",
+          "mustn't",
+          "needn't",
+          "can"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: She ___ swim when she was five.",
+        "options": [
+          "can",
+          "is able",
+          "cans",
+          "could"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: ___ I open the window?",
+        "options": [
+          "Do",
+          "Will",
+          "Am",
+          "May"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: You look ill. You ___ see a doctor.",
+        "options": [
+          "can",
+          "should",
+          "will",
+          "would"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I'm looking forward ___ you.",
+        "options": [
+          "to seeing",
+          "to see",
+          "seeing",
+          "for see"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: He enjoys ___ books.",
+        "options": [
+          "read",
+          "to read",
+          "reading",
+          "reads"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: She decided ___ a new car.",
+        "options": [
+          "buying",
+          "to buy",
+          "buy",
+          "bought"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I can't stand ___ in queues.",
+        "options": [
+          "wait",
+          "waited",
+          "waits",
+          "waiting"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: He is good ___ chess.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "for"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: The film was so ___ that I fell asleep.",
+        "options": [
+          "boring",
+          "bored",
+          "bore",
+          "bores"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: I'm ___ in history.",
+        "options": [
+          "interesting",
+          "interest",
+          "interested",
+          "interests"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: She speaks English ___.",
+        "options": [
+          "fluently",
+          "fluent",
+          "fluency",
+          "fluence"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: He drives very ___.",
+        "options": [
+          "careful",
+          "care",
+          "caring",
+          "carefully"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: I have ___ finished my homework.",
+        "options": [
+          "yet",
+          "just",
+          "ago",
+          "since"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: How long ___ you been waiting?",
+        "options": [
+          "have",
+          "has",
+          "did",
+          "are"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: While I ___ TV, the phone rang.",
+        "options": [
+          "watch",
+          "watched",
+          "was watching",
+          "am watching"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: When I arrived, the train ___.",
+        "options": [
+          "leaves",
+          "had left",
+          "leave",
+          "leaving"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: By next year, I ___ my studies.",
+        "options": [
+          "finish",
+          "finished",
+          "am finishing",
+          "will have finished"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: She ___ in this company since 2018.",
+        "options": [
+          "work",
+          "works",
+          "is working",
+          "has worked"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: Neither Ali nor Vali ___ at home.",
+        "options": [
+          "are",
+          "is",
+          "were",
+          "be"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: Each of the students ___ a book.",
+        "options": [
+          "has",
+          "have",
+          "having",
+          "are having"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: The news ___ good.",
+        "options": [
+          "are",
+          "were",
+          "is",
+          "be"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Man\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "mans",
+          "men",
+          "mens",
+          "manes"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Woman\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "womans",
+          "womens",
+          "womanes",
+          "women"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Tooth\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "tooths",
+          "toothes",
+          "teeth",
+          "teeths"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Mouse\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "mice",
+          "mouses",
+          "mices",
+          "mousen"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"City\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "citys",
+          "cityes",
+          "cities",
+          "citis"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Knife\" so'zining ko'plik shakli qaysi?",
+        "options": [
+          "knives",
+          "knifes",
+          "knifs",
+          "knive"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Buy\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "buyed",
+          "buys",
+          "boughten",
+          "bought"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"See\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "seed",
+          "saw",
+          "seen",
+          "sawed"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Take\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "took",
+          "taked",
+          "taken",
+          "takes"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Eat\" fe'lining o'tgan zamon sifatdoshi (V3) qaysi?",
+        "options": [
+          "ate",
+          "eated",
+          "eaten",
+          "eating"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Do\" fe'lining o'tgan zamon sifatdoshi (V3) qaysi?",
+        "options": [
+          "did",
+          "done",
+          "doed",
+          "does"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Think\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "thinked",
+          "thinks",
+          "thinking",
+          "thought"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Teach\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "teached",
+          "teaches",
+          "teaching",
+          "taught"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Begin\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "begun",
+          "began",
+          "beginned",
+          "begins"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Drink\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "drank",
+          "drunk",
+          "drinked",
+          "drinks"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Swim\" fe'lining o'tgan zamon shakli qaysi?",
+        "options": [
+          "swimmed",
+          "swum",
+          "swam",
+          "swims"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Difficult\" so'zining antonimi qaysi?",
+        "options": [
+          "hard",
+          "easy",
+          "heavy",
+          "long"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Early\" so'zining antonimi qaysi?",
+        "options": [
+          "soon",
+          "quick",
+          "fast",
+          "late"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Rich\" so'zining antonimi qaysi?",
+        "options": [
+          "happy",
+          "tall",
+          "poor",
+          "cheap"
+        ],
+        "answer": 2
+      }
+    ],
+    "3": [
+      {
+        "q": "\"Always\" so'zining antonimi qaysi?",
+        "options": [
+          "never",
+          "often",
+          "usually",
+          "sometimes"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Arrive\" so'zining antonimi qaysi?",
+        "options": [
+          "come",
+          "enter",
+          "leave",
+          "stay"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Buy\" so'zining antonimi qaysi?",
+        "options": [
+          "sell",
+          "take",
+          "borrow",
+          "lend"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Begin\" so'zining sinonimi qaysi?",
+        "options": [
+          "end",
+          "stop",
+          "finish",
+          "start"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Angry\" so'zining sinonimi qaysi?",
+        "options": [
+          "happy",
+          "mad",
+          "calm",
+          "glad"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Quick\" so'zining sinonimi qaysi?",
+        "options": [
+          "fast",
+          "slow",
+          "late",
+          "weak"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Smart\" so'zining sinonimi qaysi?",
+        "options": [
+          "stupid",
+          "lazy",
+          "clever",
+          "shy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Autumn\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Bahor",
+          "Kuz",
+          "Yoz",
+          "Qish"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Winter\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Bahor",
+          "Kuz",
+          "Yoz",
+          "Qish"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Friend\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Dushman",
+          "Qo'shni",
+          "O'qituvchi",
+          "Do'st"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Brother\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Opa",
+          "Aka yoki uka",
+          "Amaki",
+          "Ota"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Grandmother\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Buvi",
+          "Xola",
+          "Ona",
+          "Opa"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Kitchen\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Hammom",
+          "Yotoqxona",
+          "Oshxona",
+          "Mehmonxona"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Window\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Eshik",
+          "Deraza",
+          "Devor",
+          "Tom"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Mountain\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Daryo",
+          "Ko'l",
+          "Cho'l",
+          "Tog'"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Hospital\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Maktab",
+          "Do'kon",
+          "Kasalxona",
+          "Bank"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Dangerous\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Xavfli",
+          "Xavfsiz",
+          "Qimmat",
+          "Arzon"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Beautiful\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Xunuk",
+          "Katta",
+          "Go'zal",
+          "Kichik"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Always\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Doim",
+          "Hech qachon",
+          "Ba'zan",
+          "Kamdan-kam"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Sometimes\" so'zining tarjimasi qaysi?",
+        "options": [
+          "Doim",
+          "Hech qachon",
+          "Tez-tez",
+          "Ba'zan"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"It's raining cats and dogs\" iborasi nimani anglatadi?",
+        "options": [
+          "Hayvonlar yog'moqda",
+          "Kuchli yomg'ir yog'yapti",
+          "Qor yog'yapti",
+          "Havo ochiq"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Break a leg!\" iborasi nimani anglatadi?",
+        "options": [
+          "Omad tilayman",
+          "Oyog'ingni sindir",
+          "Ehtiyot bo'l",
+          "Yugur"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"A piece of cake\" iborasi nimani anglatadi?",
+        "options": [
+          "Shirinlik",
+          "Qimmat narsa",
+          "Juda oson ish",
+          "Yangi pishiriq"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Once in a blue moon\" iborasi nimani anglatadi?",
+        "options": [
+          "Har kuni",
+          "Juda kamdan-kam",
+          "Tez-tez",
+          "Hech qachon"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Give up\" frazeologik fe'li nimani anglatadi?",
+        "options": [
+          "Boshlamoq",
+          "Berib yubormoq",
+          "Sotib olmoq",
+          "Taslim bo'lmoq, tashlamoq"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Look after\" frazeologik fe'li nimani anglatadi?",
+        "options": [
+          "Qidirmoq",
+          "Qaramoq",
+          "Orqaga qaramoq",
+          "G'amxo'rlik qilmoq"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Turn off\" nimani anglatadi?",
+        "options": [
+          "Yoqmoq",
+          "O'chirmoq",
+          "Ochmoq",
+          "Yopmoq"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Look for\" nimani anglatadi?",
+        "options": [
+          "Qidirmoq",
+          "Topmoq",
+          "Yo'qotmoq",
+          "Ko'rmoq"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: Please ___ your shoes before you enter.",
+        "options": [
+          "put",
+          "put on",
+          "take off",
+          "turn off"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I'm tired. I ___ go to bed early tonight.",
+        "options": [
+          "can",
+          "am going to",
+          "did",
+          "was"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"How are you?\" savoliga qaysi javob mos keladi?",
+        "options": [
+          "My name is Ali",
+          "I'm 20",
+          "Yes, please",
+          "I'm fine, thanks"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"What's your name?\" savoliga qaysi javob mos keladi?",
+        "options": [
+          "I'm fine",
+          "I'm from Uzbekistan",
+          "My name is Ali",
+          "I'm 20"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Where are you from?\" savoliga qaysi javob mos keladi?",
+        "options": [
+          "I'm from Uzbekistan",
+          "I'm a student",
+          "I'm fine",
+          "Yes, I am"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"How old are you?\" savoliga qaysi javob mos keladi?",
+        "options": [
+          "I'm fine",
+          "I'm a student",
+          "I'm twenty",
+          "I'm from Tashkent"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: She ___ to music every evening.",
+        "options": [
+          "listens",
+          "listen",
+          "listening",
+          "listened"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: My brother ___ like coffee.",
+        "options": [
+          "not",
+          "isn't",
+          "don't",
+          "doesn't"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: ___ you speak English?",
+        "options": [
+          "Are",
+          "Do",
+          "Is",
+          "Does"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: ___ she live in Samarkand?",
+        "options": [
+          "Does",
+          "Do",
+          "Is",
+          "Are"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: What time ___ the shop open?",
+        "options": [
+          "do",
+          "are",
+          "does",
+          "is"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: Who ___ the window?",
+        "options": [
+          "break",
+          "broke",
+          "broken",
+          "breaks"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: I ___ my keys. I can't find them.",
+        "options": [
+          "lose",
+          "am losing",
+          "losing",
+          "have lost"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: She ___ never been abroad.",
+        "options": [
+          "is",
+          "was",
+          "does",
+          "has"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: We ___ dinner at a restaurant last night.",
+        "options": [
+          "has",
+          "had",
+          "have",
+          "having"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: He is the ___ student in our class.",
+        "options": [
+          "most intelligent",
+          "more intelligent",
+          "intelligentest",
+          "intelligenter"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: This exercise is ___ than that one.",
+        "options": [
+          "easy",
+          "easiest",
+          "easier",
+          "more easy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I have two brothers. ___ names are Ali and Vali.",
+        "options": [
+          "Her",
+          "Their",
+          "Your",
+          "Its"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Complete: This is my sister. ___ name is Laylo.",
+        "options": [
+          "His",
+          "Their",
+          "Its",
+          "Her"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Complete: Is this book ___?",
+        "options": [
+          "your's",
+          "you",
+          "yours",
+          "yourself"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Complete: I cut ___ yesterday.",
+        "options": [
+          "myself",
+          "me",
+          "mine",
+          "my"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Complete: She ___ him a letter last week.",
+        "options": [
+          "writes",
+          "writing",
+          "wrote",
+          "written"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "hist": {
+    "1": [
+      {
+        "q": "Amir Temur qaysi yili tug'ilgan?",
+        "options": [
+          "1336",
+          "1405",
+          "1220",
+          "1370"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Mirzo Ulug'bek rasadxonasi qaysi shaharda qurilgan?",
+        "options": [
+          "Buxoro",
+          "Samarqand",
+          "Xiva",
+          "Shahrisabz"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekiston mustaqilligi qaysi yili e'lon qilingan?",
+        "options": [
+          "1989",
+          "1990",
+          "1991",
+          "1992"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ikkinchi jahon urushi qaysi yili boshlangan?",
+        "options": [
+          "1914",
+          "1936",
+          "1939",
+          "1941"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Birinchi jahon urushi qaysi yili boshlangan?",
+        "options": [
+          "1912",
+          "1914",
+          "1916",
+          "1918"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Buyuk Ipak yo'li nimani bog'lagan?",
+        "options": [
+          "Sharq va G'arbni",
+          "Faqat Afrikani",
+          "Amerika va Yevropani",
+          "Avstraliyani"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Zahiriddin Bobur Hindistonda qaysi davlatga asos solgan?",
+        "options": [
+          "Usmonlilar",
+          "Boburiylar",
+          "Safaviylar",
+          "Somoniylar"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Amir Temur qaysi shaharda tug'ilgan?",
+        "options": [
+          "Shahrisabz (Kesh)",
+          "Xiva",
+          "Buxoro",
+          "Termiz"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ikkinchi jahon urushi qaysi yili tugagan?",
+        "options": [
+          "1943",
+          "1944",
+          "1945",
+          "1946"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qadimgi Misrda fir'avnlarning qabri qanday nomlangan?",
+        "options": [
+          "Ziggurat",
+          "Ehromlar",
+          "Kolizey",
+          "Akropol"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qadimgi Olimpiya o'yinlari qaysi mamlakatda boshlangan?",
+        "options": [
+          "Rim",
+          "Misr",
+          "Yunoniston",
+          "Xitoy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Kolumb Amerikani qaysi yili kashf etgan?",
+        "options": [
+          "1453",
+          "1492",
+          "1519",
+          "1607"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Konstantinopolni 1453 yilda qaysi davlat egallagan?",
+        "options": [
+          "Temuriylar",
+          "Usmonlilar",
+          "Mo'g'ullar",
+          "Arablar"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Chingizxon qaysi xalqdan chiqqan?",
+        "options": [
+          "Mo'g'ul",
+          "Turk",
+          "Fors",
+          "Arab"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Tib qonunlari\" asarining muallifi kim?",
+        "options": [
+          "Beruniy",
+          "Ibn Sino",
+          "Xorazmiy",
+          "Farg'oniy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Al-Xorazmiy qaysi fanning asoschilaridan biri hisoblanadi?",
+        "options": [
+          "Algebra",
+          "Kimyo",
+          "Biologiya",
+          "Geografiya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Fransuz inqilobi qaysi yilda boshlangan?",
+        "options": [
+          "1689",
+          "1789",
+          "1815",
+          "1848"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "AQSh mustaqilligi qaysi yili e'lon qilingan?",
+        "options": [
+          "1776",
+          "1789",
+          "1812",
+          "1865"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Kosmosga uchgan birinchi inson kim?",
+        "options": [
+          "Nil Armstrong",
+          "Yuriy Gagarin",
+          "Aleksey Leonov",
+          "Valentina Tereshkova"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Oyga birinchi bo'lib qadam qo'ygan inson kim?",
+        "options": [
+          "Buzz Aldrin",
+          "Yuriy Gagarin",
+          "Nil Armstrong",
+          "John Glenn"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Berlin devori qaysi yili qulagan?",
+        "options": [
+          "1961",
+          "1985",
+          "1989",
+          "1991"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Somoniylar davlatining poytaxti qaysi shahar edi?",
+        "options": [
+          "Samarqand",
+          "Buxoro",
+          "Xiva",
+          "Marv"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Jaloliddin Manguberdi qaysi hukmdorga qarshi kurashgan?",
+        "options": [
+          "Amir Temur",
+          "Chingizxon",
+          "Aleksandr Makedonskiy",
+          "Arab xalifaligi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Aleksandr Makedonskiy Markaziy Osiyoga qaysi davrda kelgan?",
+        "options": [
+          "Miloddan avvalgi IV asr",
+          "Miloddan avvalgi I asr",
+          "Milodiy III asr",
+          "Milodiy VII asr"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Xiva xonligining poytaxti qaysi shahar edi?",
+        "options": [
+          "Qo'qon",
+          "Buxoro",
+          "Xiva",
+          "Toshkent"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Amir Temur qaysi yili vafot etgan?",
+        "options": [
+          "1405",
+          "1404",
+          "1415",
+          "1398"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Mirzo Ulug'bek qaysi yili vafot etgan?",
+        "options": [
+          "1394",
+          "1427",
+          "1449",
+          "1500"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Alisher Navoiy qaysi yili vafot etgan?",
+        "options": [
+          "1483",
+          "1501",
+          "1530",
+          "1405"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Zahiriddin Bobur qaysi yili vafot etgan?",
+        "options": [
+          "1483",
+          "1526",
+          "1501",
+          "1530"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Bobur Panipat jangida g'alaba qozongan yil qaysi?",
+        "options": [
+          "1494",
+          "1504",
+          "1526",
+          "1556"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Amir Temur Dehlini qaysi yili egallagan?",
+        "options": [
+          "1398",
+          "1405",
+          "1370",
+          "1402"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Temur va Boyazid o'rtasidagi Anqara jangi qaysi yilda bo'lgan?",
+        "options": [
+          "1389",
+          "1398",
+          "1402",
+          "1405"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Temuriylar davlati qaysi yili tashkil topgan?",
+        "options": [
+          "1370",
+          "1336",
+          "1405",
+          "1220"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Mo'g'ullar Buxoroni qaysi yili bosib olgan?",
+        "options": [
+          "1206",
+          "1219",
+          "1227",
+          "1220"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Chingizxon qaysi yili vafot etgan?",
+        "options": [
+          "1206",
+          "1227",
+          "1220",
+          "1260"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Arablar Movarounnahrni qaysi asrda bosib olgan?",
+        "options": [
+          "VIII",
+          "V",
+          "XII",
+          "XV"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Abu Ali ibn Sino qaysi yili tug'ilgan?",
+        "options": [
+          "873",
+          "937",
+          "980",
+          "1048"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Abu Rayhon Beruniy qaysi yili tug'ilgan?",
+        "options": [
+          "980",
+          "973",
+          "780",
+          "1048"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Al-Xorazmiy qaysi asrda yashagan?",
+        "options": [
+          "VII",
+          "XII",
+          "XV",
+          "IX"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Imom al-Buxoriy qaysi shaharda tug'ilgan?",
+        "options": [
+          "Samarqand",
+          "Termiz",
+          "Xiva",
+          "Buxoro"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Imom at-Termiziy qaysi hududdan chiqqan?",
+        "options": [
+          "Buxoro",
+          "Termiz",
+          "Samarqand",
+          "Marv"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Somoniylar davlati qaysi asrlarda hukmronlik qilgan?",
+        "options": [
+          "IX–X",
+          "XI–XII",
+          "XIV–XV",
+          "XVI–XVII"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Xorazmshohlar davlatining poytaxti qaysi shahar edi?",
+        "options": [
+          "Buxoro",
+          "Samarqand",
+          "Urganch (Gurganj)",
+          "Marv"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Buxoro amirligi qaysi yili Rossiya protektoratiga aylangan?",
+        "options": [
+          "1865",
+          "1868",
+          "1873",
+          "1876"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Toshkent Rossiya imperiyasi tomonidan qaysi yili bosib olingan?",
+        "options": [
+          "1860",
+          "1868",
+          "1873",
+          "1865"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Xiva xonligi qaysi yili Rossiya protektoratiga aylangan?",
+        "options": [
+          "1865",
+          "1868",
+          "1873",
+          "1876"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qo'qon xonligi qaysi yili tugatilgan?",
+        "options": [
+          "1876",
+          "1868",
+          "1873",
+          "1917"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Turkiston general-gubernatorligi qaysi yili tashkil etilgan?",
+        "options": [
+          "1865",
+          "1868",
+          "1867",
+          "1873"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Jadidchilik harakatining yirik vakillaridan biri kim?",
+        "options": [
+          "Mahmudxo'ja Behbudiy",
+          "Amir Temur",
+          "Alisher Navoiy",
+          "Zahiriddin Bobur"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Behbudiyning mashhur dramasi qaysi?",
+        "options": [
+          "Zaharli hayot",
+          "O'tkan kunlar",
+          "Mehrobdan chayon",
+          "Padarkush"
+        ],
+        "answer": 3
+      }
+    ],
+    "2": [
+      {
+        "q": "Turkiston Muxtoriyati qaysi yili e'lon qilingan?",
+        "options": [
+          "1916",
+          "1917",
+          "1918",
+          "1920"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Oktyabr to'ntarishi (inqilobi) qaysi yilda bo'lgan?",
+        "options": [
+          "1917",
+          "1905",
+          "1921",
+          "1924"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbekiston SSR qaysi yili tuzilgan?",
+        "options": [
+          "1917",
+          "1922",
+          "1924",
+          "1936"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbekiston SSR SSSR tarkibiga qaysi yili ittifoq respublikasi sifatida kirdi?",
+        "options": [
+          "1924",
+          "1925",
+          "1936",
+          "1929"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Toshkent qaysi yili O'zbekiston SSR poytaxti bo'ldi?",
+        "options": [
+          "1924",
+          "1925",
+          "1936",
+          "1930"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "SSSR qaysi yili parchalangan?",
+        "options": [
+          "1985",
+          "1989",
+          "1993",
+          "1991"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "O'zbekiston BMTga qaysi yili a'zo bo'lgan?",
+        "options": [
+          "1991",
+          "1992",
+          "1993",
+          "1995"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekiston Konstitutsiyasi qabul qilingan sana qaysi?",
+        "options": [
+          "8 dekabr",
+          "1 sentyabr",
+          "21 oktyabr",
+          "9 may"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "O'zbekistonda Mustaqillik kuni qaysi sanada nishonlanadi?",
+        "options": [
+          "8 dekabr",
+          "21 oktyabr",
+          "1 sentyabr",
+          "9 may"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Xotira va qadrlash kuni\" qaysi sanada nishonlanadi?",
+        "options": [
+          "1 sentyabr",
+          "9 may",
+          "8 dekabr",
+          "21 mart"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekistonning birinchi Prezidenti kim?",
+        "options": [
+          "Shavkat Mirziyoyev",
+          "Sharof Rashidov",
+          "Rafiq Nishonov",
+          "Islom Karimov"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "2016-yildan beri O'zbekiston Prezidenti kim?",
+        "options": [
+          "Islom Karimov",
+          "Abdulla Oripov",
+          "Sharof Rashidov",
+          "Shavkat Mirziyoyev"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "O'zbekistonda milliy valyuta (so'm) qaysi yili muomalaga kiritilgan?",
+        "options": [
+          "1991",
+          "1994",
+          "1996",
+          "1993"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "O'zbekiston Davlat bayrog'i qaysi yili qabul qilingan?",
+        "options": [
+          "1991",
+          "1992",
+          "1993",
+          "1994"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "G'arbiy Rim imperiyasi qaysi yili qulagan?",
+        "options": [
+          "395",
+          "410",
+          "476",
+          "800"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Vizantiya imperiyasining poytaxti Konstantinopol qaysi yili Usmonlilar qo'liga o'tgan?",
+        "options": [
+          "1204",
+          "1453",
+          "1492",
+          "1517"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Magellan dunyo bo'ylab sayohatini qaysi yili boshlagan?",
+        "options": [
+          "1492",
+          "1498",
+          "1607",
+          "1519"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Vasko da Gama Hindistonga dengiz yo'lini qaysi yili ochgan?",
+        "options": [
+          "1453",
+          "1492",
+          "1498",
+          "1519"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Kristofor Kolumb qaysi davlat homiyligida sayohat qilgan?",
+        "options": [
+          "Ispaniya",
+          "Portugaliya",
+          "Angliya",
+          "Fransiya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Uyg'onish davri (Renessans) qaysi mamlakatda boshlangan?",
+        "options": [
+          "Fransiya",
+          "Angliya",
+          "Italiya",
+          "Germaniya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Mona Liza\" rasmining muallifi kim?",
+        "options": [
+          "Leonardo da Vinchi",
+          "Mikelanjelo",
+          "Rafael",
+          "Botichelli"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Yevropada kitob bosish usulini ixtiro qilgan kishi kim?",
+        "options": [
+          "Nyuton",
+          "Galiley",
+          "Kopernik",
+          "Gutenberg"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Quyosh sistemasining geliosentrik nazariyasi muallifi kim?",
+        "options": [
+          "Galiley",
+          "Kopernik",
+          "Nyuton",
+          "Keplar"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Butun olam tortishish qonunini kim kashf etgan?",
+        "options": [
+          "Nyuton",
+          "Eynshteyn",
+          "Galiley",
+          "Faradey"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nisbiylik nazariyasi muallifi kim?",
+        "options": [
+          "Nyuton",
+          "Bor",
+          "Eynshteyn",
+          "Tesla"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Napoleon Bonapart qaysi mamlakatning imperatori bo'lgan?",
+        "options": [
+          "Italiya",
+          "Fransiya",
+          "Germaniya",
+          "Ispaniya"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Vaterloo jangi qaysi yilda bo'lgan?",
+        "options": [
+          "1789",
+          "1799",
+          "1805",
+          "1815"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Napoleon Rossiyaga qaysi yili yurish qilgan?",
+        "options": [
+          "1805",
+          "1807",
+          "1815",
+          "1812"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "AQShning birinchi prezidenti kim?",
+        "options": [
+          "Avraam Linkoln",
+          "Jorj Vashington",
+          "Tomas Jefferson",
+          "Franklin Ruzvelt"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "AQShdagi Fuqarolar urushi qaysi yillarda bo'lgan?",
+        "options": [
+          "1861–1865",
+          "1775–1783",
+          "1914–1918",
+          "1939–1945"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "AQShda qullikni bekor qilgan prezident kim?",
+        "options": [
+          "Vashington",
+          "Ruzvelt",
+          "Linkoln",
+          "Kennedi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Titanik\" kemasi qaysi yili halokatga uchragan?",
+        "options": [
+          "1905",
+          "1912",
+          "1914",
+          "1920"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Birinchi jahon urushi qaysi yili tugagan?",
+        "options": [
+          "1914",
+          "1916",
+          "1917",
+          "1918"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Adolf Gitler qaysi mamlakat rahbari bo'lgan?",
+        "options": [
+          "Italiya",
+          "Avstriya",
+          "Germaniya",
+          "Yaponiya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Germaniya SSSRga qaysi yili hujum qilgan?",
+        "options": [
+          "1941",
+          "1939",
+          "1940",
+          "1945"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Stalingrad jangi qaysi yillarda bo'lgan?",
+        "options": [
+          "1939–1940",
+          "1944–1945",
+          "1942–1943",
+          "1941–1942"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Normandiyaga ittifoqchilar desanti qaysi yili tushgan?",
+        "options": [
+          "1944",
+          "1941",
+          "1945",
+          "1939"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Hirosimaga atom bombasi qaysi yili tashlangan?",
+        "options": [
+          "1941",
+          "1942",
+          "1944",
+          "1945"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Birlashgan Millatlar Tashkiloti (BMT) qaysi yili tashkil topgan?",
+        "options": [
+          "1919",
+          "1945",
+          "1950",
+          "1991"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Sovuq urush\" davrida asosiy raqib bloklarga qaysi davlatlar boshchilik qilgan?",
+        "options": [
+          "AQSh va SSSR",
+          "Xitoy va Yaponiya",
+          "Fransiya va Germaniya",
+          "Angliya va Hindiston"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Berlin devori qaysi yili qurilgan?",
+        "options": [
+          "1945",
+          "1953",
+          "1961",
+          "1989"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Birinchi sun'iy yo'ldosh \"Sputnik-1\" qaysi yili uchirilgan?",
+        "options": [
+          "1945",
+          "1957",
+          "1961",
+          "1969"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yuriy Gagarin kosmosga qaysi yili uchgan?",
+        "options": [
+          "1957",
+          "1959",
+          "1965",
+          "1961"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Chernobil AES halokati qaysi yili sodir bo'lgan?",
+        "options": [
+          "1979",
+          "1983",
+          "1991",
+          "1986"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "NATO qaysi yili tashkil topgan?",
+        "options": [
+          "1945",
+          "1949",
+          "1955",
+          "1991"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qadimgi Yunonistonda demokratiya qaysi shahar-davlatda paydo bo'lgan?",
+        "options": [
+          "Afina",
+          "Sparta",
+          "Fiva",
+          "Korinf"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Aleksandr Makedonskiyning ustozi kim bo'lgan?",
+        "options": [
+          "Platon",
+          "Sokrat",
+          "Aristotel",
+          "Gerodot"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qadimgi Rimning birinchi imperatori kim?",
+        "options": [
+          "Yuliy Sezar",
+          "Avgust",
+          "Neron",
+          "Konstantin"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Spartak boshchiligidagi qullar qo'zg'oloni qaysi davlatda bo'lgan?",
+        "options": [
+          "Yunoniston",
+          "Misr",
+          "Karfagen",
+          "Qadimgi Rim"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qadimgi Misrda qo'llangan yozuv turi qaysi?",
+        "options": [
+          "Lotin",
+          "Kirill",
+          "Ieroglif",
+          "Arab"
+        ],
+        "answer": 2
+      }
+    ],
+    "3": [
+      {
+        "q": "Qadimgi Mesopotamiyada qo'llangan yozuv turi qaysi?",
+        "options": [
+          "Mixxat",
+          "Ieroglif",
+          "Kirill",
+          "Lotin"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Buyuk Xitoy devori qaysi davlatda joylashgan?",
+        "options": [
+          "Hindiston",
+          "Yaponiya",
+          "Xitoy",
+          "Mo'g'uliston"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qog'ozni dastlab qaysi xalq ixtiro qilgan?",
+        "options": [
+          "Xitoyliklar",
+          "Misrliklar",
+          "Arablar",
+          "Rimliklar"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Amir Temur maqbarasi (Go'ri Amir) qaysi shaharda joylashgan?",
+        "options": [
+          "Buxoro",
+          "Xiva",
+          "Toshkent",
+          "Samarqand"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ichan Qal'a qaysi shaharda joylashgan?",
+        "options": [
+          "Buxoro",
+          "Xiva",
+          "Samarqand",
+          "Qarshi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Poyi Kalon majmuasi qaysi shaharda joylashgan?",
+        "options": [
+          "Buxoro",
+          "Xiva",
+          "Samarqand",
+          "Toshkent"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Shohizinda ansambli qaysi shaharda joylashgan?",
+        "options": [
+          "Buxoro",
+          "Xiva",
+          "Samarqand",
+          "Termiz"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Registondagi Ulug'bek madrasasi qaysi yillarda qurilgan?",
+        "options": [
+          "1370",
+          "1417–1420",
+          "1500",
+          "1600"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Ziji jadidi Koragoniy\" (Ulug'bek zijiy) astronomik jadvallar muallifi kim?",
+        "options": [
+          "Beruniy",
+          "Xorazmiy",
+          "Ibn Sino",
+          "Mirzo Ulug'bek"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Abu Ali ibn Sino qaysi hududda tug'ilgan?",
+        "options": [
+          "Samarqand",
+          "Xiva",
+          "Termiz",
+          "Buxoro yaqinidagi Afshona"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Al-Farg'oniy qaysi sohada mashhur bo'lgan?",
+        "options": [
+          "Tibbiyot",
+          "Astronomiya",
+          "Adabiyot",
+          "Falsafa"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Algoritm\" atamasi qaysi olim nomidan kelib chiqqan?",
+        "options": [
+          "Al-Xorazmiy",
+          "Beruniy",
+          "Ibn Sino",
+          "Forobiy"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Ikkinchi muallim\" laqabi bilan mashhur bo'lgan allomaning ismi nima?",
+        "options": [
+          "Ibn Sino",
+          "Beruniy",
+          "Forobiy",
+          "Xorazmiy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Imom al-Buxoriyning mashhur asari qaysi?",
+        "options": [
+          "Tib qonunlari",
+          "Al-Jome' as-Sahih",
+          "Zij",
+          "Boburnoma"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ahmad Yassaviy qaysi shaharda dafn etilgan?",
+        "options": [
+          "Samarqand",
+          "Buxoro",
+          "Toshkent",
+          "Turkiston"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Bahouddin Naqshband maqbarasi qaysi shahar yaqinida joylashgan?",
+        "options": [
+          "Samarqand",
+          "Toshkent",
+          "Buxoro",
+          "Xiva"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "\"Temur tuzuklari\" nima?",
+        "options": [
+          "Davlat boshqaruvi haqidagi asar",
+          "Roman",
+          "Doston",
+          "Ilmiy risola"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "\"Sohibqiron\" laqabi kimga tegishli?",
+        "options": [
+          "Ulug'bek",
+          "Bobur",
+          "Amir Temur",
+          "Navoiy"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Amir Temur davrida Samarqand qanday maqomga ega bo'lgan?",
+        "options": [
+          "Davlat poytaxti",
+          "Chegara qal'asi",
+          "Qishloq",
+          "Port"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Shayboniylar davlatiga kim asos solgan?",
+        "options": [
+          "Amir Temur",
+          "Bobur",
+          "Ulug'bek",
+          "Muhammad Shayboniyxon"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ashtarxoniylar sulolasi qaysi xonlikda hukmronlik qilgan?",
+        "options": [
+          "Xiva",
+          "Buxoro",
+          "Qo'qon",
+          "Toshkent"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qo'qon xonligiga kim asos solgan?",
+        "options": [
+          "Shohruxbiy",
+          "Alimxon",
+          "Umarxon",
+          "Xudoyorxon"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Mang'itlar sulolasi qaysi xonlikda hukmronlik qilgan?",
+        "options": [
+          "Xiva",
+          "Qo'qon",
+          "Buxoro",
+          "Toshkent"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qo'ng'irotlar sulolasi qaysi xonlikda hukmronlik qilgan?",
+        "options": [
+          "Buxoro",
+          "Xiva",
+          "Qo'qon",
+          "Samarqand"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Minglar sulolasi qaysi xonlikda hukmronlik qilgan?",
+        "options": [
+          "Xiva",
+          "Buxoro",
+          "Toshkent",
+          "Qo'qon"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Dukchi Eshon qo'zg'oloni (Andijon qo'zg'oloni) qaysi yili bo'lgan?",
+        "options": [
+          "1865",
+          "1916",
+          "1917",
+          "1898"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1916-yilgi Turkiston qo'zg'oloniga asosiy sabab nima edi?",
+        "options": [
+          "Soliqlarni kamaytirish",
+          "Mardikorlikka olish haqidagi farmon",
+          "Yer taqsimoti",
+          "Dinga qarshi qonun"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Behbudiy tomonidan chiqarilgan jurnal qaysi?",
+        "options": [
+          "Oyna",
+          "Sharq yulduzi",
+          "Guliston",
+          "Mushtum"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Cho'lpon qaysi ijtimoiy-madaniy harakat vakili hisoblanadi?",
+        "options": [
+          "Sovet",
+          "Dehqon",
+          "Jadidchilik",
+          "Fashist"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "O'zbekistonda \"Qatag'on qurbonlari xotirasi kuni\" qaysi sanada nishonlanadi?",
+        "options": [
+          "9 may",
+          "31 avgust",
+          "1 sentyabr",
+          "8 dekabr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Chingizxon qaysi imperiyaga asos solgan?",
+        "options": [
+          "Fors",
+          "Turk",
+          "Arab",
+          "Mo'g'ul imperiyasi"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Oltin O'rda davlatiga kim asos solgan?",
+        "options": [
+          "Chingizxon",
+          "Xulagu",
+          "Botuxon",
+          "Amir Temur"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Dehli sultonligi qaysi mamlakat hududida bo'lgan?",
+        "options": [
+          "Hindiston",
+          "Eron",
+          "Misr",
+          "Turkiya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Usmonli davlatining asoschisi kim?",
+        "options": [
+          "Mehmed II",
+          "Sulaymon",
+          "Usmon I",
+          "Selim"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Safaviylar davlati qaysi hududda tashkil topgan?",
+        "options": [
+          "Eron",
+          "Turkiya",
+          "Hindiston",
+          "Misr"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Napoleon umrining oxirida qaysi orolga surgun qilingan?",
+        "options": [
+          "Korsika",
+          "Elba",
+          "Sitsiliya",
+          "Sankt-Yelena"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Meydzi islohotlari qaysi mamlakatda o'tkazilgan?",
+        "options": [
+          "Xitoy",
+          "Yaponiya",
+          "Hindiston",
+          "Koreya"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Mahatma Gandi qaysi mamlakat mustaqilligi uchun kurashgan?",
+        "options": [
+          "Hindiston",
+          "Pokiston",
+          "Xitoy",
+          "Misr"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Hindiston mustaqillikka qaysi yili erishgan?",
+        "options": [
+          "1945",
+          "1950",
+          "1947",
+          "1962"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Xitoy Xalq Respublikasi qaysi yili e'lon qilingan?",
+        "options": [
+          "1945",
+          "1949",
+          "1953",
+          "1976"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kuba inqilobining rahbari kim edi?",
+        "options": [
+          "Che Gevara",
+          "Xuan Peron",
+          "Simon Bolivar",
+          "Fidel Kastro"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Yelizaveta II Buyuk Britaniya taxtiga qaysi yili chiqqan?",
+        "options": [
+          "1945",
+          "1947",
+          "1960",
+          "1952"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Magna Karta (Buyuk erkinlik xartiyasi) qaysi yili imzolangan?",
+        "options": [
+          "1066",
+          "1215",
+          "1492",
+          "1603"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yuz yillik urush Angliya va qaysi davlat o'rtasida bo'lgan?",
+        "options": [
+          "Fransiya",
+          "Ispaniya",
+          "Germaniya",
+          "Rossiya"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Jann d'Ark qaysi mamlakatning milliy qahramoni?",
+        "options": [
+          "Angliya",
+          "Italiya",
+          "Fransiya",
+          "Ispaniya"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Buyuk Fransuz inqilobining shiori qaysi?",
+        "options": [
+          "Din va davlat",
+          "Erkinlik, tenglik, birodarlik",
+          "Mehnat va Vatan",
+          "Tinchlik va non"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Pyotr I qaysi mamlakatning imperatori bo'lgan?",
+        "options": [
+          "Germaniya",
+          "Fransiya",
+          "Avstriya",
+          "Rossiya"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Pyotr I asos solgan shahar qaysi?",
+        "options": [
+          "Moskva",
+          "Kiyev",
+          "Sankt-Peterburg",
+          "Novgorod"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Rossiyada krepostnoy huquq qaysi yili bekor qilingan?",
+        "options": [
+          "1861",
+          "1812",
+          "1905",
+          "1917"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qrim urushi qaysi yillarda bo'lgan?",
+        "options": [
+          "1812–1815",
+          "1861–1865",
+          "1853–1856",
+          "1914–1918"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "logic": {
+    "1": [
+      {
+        "q": "2, 4, 8, 16, ? Ketma-ketlikning keyingi soni qaysi?",
+        "options": [
+          "24",
+          "30",
+          "32",
+          "36"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "1, 4, 9, 16, ? Keyingi son qaysi?",
+        "options": [
+          "25",
+          "20",
+          "24",
+          "36"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Barcha mushuklar hayvon. Tom mushuk. Demak:",
+        "options": [
+          "Tom hayvon emas",
+          "Tom hayvon",
+          "Tom it",
+          "Aniq emas"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: olma, nok, sabzi, uzum?",
+        "options": [
+          "olma",
+          "nok",
+          "sabzi",
+          "uzum"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "2,5 soatda necha daqiqa bor?",
+        "options": [
+          "150",
+          "120",
+          "140",
+          "180"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Alisher Boburdan katta, Bobur Sardordan katta. Eng kichigi kim?",
+        "options": [
+          "Alisher",
+          "Bobur",
+          "Sardor",
+          "Aniq emas"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "3 ta mushuk 3 ta sichqonni 3 daqiqada tutsa, 100 ta mushuk 100 ta sichqonni necha daqiqada tutadi?",
+        "options": [
+          "1",
+          "3",
+          "33",
+          "100"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "1, 1, 2, 3, 5, 8, ? Keyingi son qaysi?",
+        "options": [
+          "13",
+          "11",
+          "12",
+          "14"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Otaning 2 ta o'g'li bor, har bir o'g'ilning 1 tadan singlisi bor. Oilada jami nechta bola bor?",
+        "options": [
+          "4",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Dushanbadan 3 kun keyin qaysi kun keladi?",
+        "options": [
+          "Chorshanba",
+          "Juma",
+          "Shanba",
+          "Payshanba"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Poyezd soatiga 60 km tezlik bilan 3 soatda necha km yo'l bosadi?",
+        "options": [
+          "120",
+          "150",
+          "180",
+          "200"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "2, 6, 12, 20, 30, ? Keyingi son qaysi?",
+        "options": [
+          "42",
+          "40",
+          "36",
+          "48"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Hamma o'quvchilar kitob o'qiydi. Ali kitob o'qimaydi. Demak:",
+        "options": [
+          "Ali o'quvchi",
+          "Ali o'quvchi emas",
+          "Ali o'qituvchi",
+          "Aniq emas"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "A, C, E, G, ? Keyingi harf qaysi?",
+        "options": [
+          "H",
+          "I",
+          "J",
+          "K"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Yilning nechta oyida 28 kun bor?",
+        "options": [
+          "1",
+          "2",
+          "6",
+          "12"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Bir kishi 10 m yurib, keyin orqaga 10 m qaytsa, boshlang'ich nuqtadan qancha uzoqlikda bo'ladi?",
+        "options": [
+          "0 m",
+          "10 m",
+          "20 m",
+          "5 m"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ikkita ota va ikkita o'g'il baliq ovladi, har biri bittadan, jami uchta baliq tutildi. Ovchilar nechta kishi edi?",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qopda 5 ta olma bor. Siz 3 tasini olsangiz, sizda nechta olma bo'ladi?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi shakl ortiqcha: uchburchak, kvadrat, doira, to'rtburchak?",
+        "options": [
+          "uchburchak",
+          "kvadrat",
+          "doira",
+          "to'rtburchak"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "1, 3, 6, 10, 15, ? Keyingi son qaysi?",
+        "options": [
+          "21",
+          "20",
+          "19",
+          "22"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "5 + 5 × 5 − 5 ÷ 5 ifodaning qiymati nechaga teng?",
+        "options": [
+          "49",
+          "29",
+          "24",
+          "9"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "\"Agar kecha ertaga bo'lganida, bugun juma bo'lardi.\" Aslida bugun qaysi kun?",
+        "options": [
+          "Dushanba",
+          "Seshanba",
+          "Chorshanba",
+          "Payshanba"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "8 ta bir xil tangadan bittasi og'irroq. Pallali tarozida kamida necha marta tortib uni topish mumkin?",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Hech bir baliq uchmaydi. Hamma qushlar uchadi. Demak:",
+        "options": [
+          "Ba'zi baliqlar qush",
+          "Hech bir baliq qush emas",
+          "Hamma qush baliq",
+          "Aniq emas"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "100 dan 7 ni ketma-ket ayirib borilsa, birinchi manfiy son qaysi bo'ladi?",
+        "options": [
+          "−5",
+          "−3",
+          "−7",
+          "−2"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "3, 6, 9, 12, ? Keyingi son qaysi?",
+        "options": [
+          "14",
+          "16",
+          "15",
+          "18"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "2, 5, 8, 11, ? Keyingi son qaysi?",
+        "options": [
+          "14",
+          "15",
+          "13",
+          "12"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "1, 2, 4, 7, 11, ? Keyingi son qaysi?",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "18"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "100, 90, 80, 70, ? Keyingi son qaysi?",
+        "options": [
+          "60",
+          "50",
+          "65",
+          "55"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "5, 10, 20, 40, ? Keyingi son qaysi?",
+        "options": [
+          "60",
+          "70",
+          "50",
+          "80"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1, 8, 27, 64, ? Keyingi son qaysi?",
+        "options": [
+          "100",
+          "125",
+          "216",
+          "81"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "2, 3, 5, 7, 11, ? Keyingi son qaysi?",
+        "options": [
+          "13",
+          "12",
+          "14",
+          "15"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "1, 3, 7, 15, 31, ? Keyingi son qaysi?",
+        "options": [
+          "47",
+          "62",
+          "63",
+          "64"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "81, 27, 9, 3, ? Keyingi son qaysi?",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "6"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "4, 9, 16, 25, ? Keyingi son qaysi?",
+        "options": [
+          "30",
+          "32",
+          "34",
+          "36"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Z, X, V, T, ? Keyingi harf qaysi?",
+        "options": [
+          "P",
+          "Q",
+          "S",
+          "R"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "A, B, D, G, ? Keyingi harf qaysi?",
+        "options": [
+          "J",
+          "K",
+          "L",
+          "M"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "7, 14, 21, 28, ? Keyingi son qaysi?",
+        "options": [
+          "35",
+          "32",
+          "42",
+          "36"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi son ortiqcha: 2, 4, 6, 9, 10?",
+        "options": [
+          "2",
+          "6",
+          "9",
+          "10"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi son ortiqcha: 3, 5, 7, 9, 11?",
+        "options": [
+          "3",
+          "9",
+          "7",
+          "11"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi shakl ortiqcha: kvadrat, uchburchak, doira, kub?",
+        "options": [
+          "Kvadrat",
+          "Uchburchak",
+          "Doira",
+          "Kub"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: it, mushuk, stol, ot?",
+        "options": [
+          "it",
+          "mushuk",
+          "stol",
+          "ot"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: Toshkent, Samarqand, Buxoro, Nil?",
+        "options": [
+          "Nil",
+          "Toshkent",
+          "Samarqand",
+          "Buxoro"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: qizil, ko'k, katta, yashil?",
+        "options": [
+          "Qizil",
+          "Ko'k",
+          "Katta",
+          "Yashil"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: pichoq, qoshiq, vilka, qalam?",
+        "options": [
+          "Qalam",
+          "Pichoq",
+          "Qoshiq",
+          "Vilka"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: yanvar, mart, may, dushanba?",
+        "options": [
+          "Yanvar",
+          "Mart",
+          "May",
+          "Dushanba"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: velosiped, daftar, mashina, poyezd?",
+        "options": [
+          "Velosiped",
+          "Daftar",
+          "Mashina",
+          "Poyezd"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qush : uchmoq = baliq : ?",
+        "options": [
+          "suzmoq",
+          "yugurmoq",
+          "uchmoq",
+          "yurmoq"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qo'l : barmoq = daraxt : ?",
+        "options": [
+          "tosh",
+          "suv",
+          "barg",
+          "yer"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Kun : yorug' = tun : ?",
+        "options": [
+          "issiq",
+          "qorong'u",
+          "tez",
+          "katta"
+        ],
+        "answer": 1
+      }
+    ],
+    "2": [
+      {
+        "q": "Kitob : o'qimoq = qo'shiq : ?",
+        "options": [
+          "yozmoq",
+          "yemoq",
+          "ichmoq",
+          "tinglamoq"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Maktab : o'quvchi = kasalxona : ?",
+        "options": [
+          "o'qituvchi",
+          "haydovchi",
+          "oshpaz",
+          "bemor"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ko'z : ko'rmoq = quloq : ?",
+        "options": [
+          "hidlamoq",
+          "eshitmoq",
+          "gapirmoq",
+          "yemoq"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "1 : 2 = 5 : ?",
+        "options": [
+          "10",
+          "7",
+          "6",
+          "25"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Hamma gullar chiroyli. Atirgul — gul. Demak:",
+        "options": [
+          "Atirgul chiroyli emas",
+          "Atirgul daraxt",
+          "Atirgul chiroyli",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Agar yomg'ir yog'sa, yer ho'l bo'ladi. Yomg'ir yog'di. Demak:",
+        "options": [
+          "Yer quruq",
+          "Yer ho'l",
+          "Yomg'ir to'xtadi",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ba'zi o'quvchilar sportchi. Ali o'quvchi. Demak:",
+        "options": [
+          "Ali sportchi",
+          "Ali sportchi emas",
+          "Hamma o'quvchi sportchi",
+          "Ali sportchi bo'lishi ham, bo'lmasligi ham mumkin"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ali Validan baland, Vali Sardordan baland. Eng past bo'yli kim?",
+        "options": [
+          "Ali",
+          "Vali",
+          "Sardor",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ali Validan yosh, Vali Sardordan yosh. Eng yoshi kim?",
+        "options": [
+          "Ali",
+          "Vali",
+          "Sardor",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Uchta quti: qizil, ko'k, yashil. Qizil quti ko'kning o'ng tomonida, yashil quti qizilning o'ng tomonida. Eng o'ngdagisi qaysi?",
+        "options": [
+          "Qizil",
+          "Ko'k",
+          "Yashil",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ertaga juma bo'lsa, kecha qaysi kun edi?",
+        "options": [
+          "Chorshanba",
+          "Payshanba",
+          "Seshanba",
+          "Juma"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Bugun seshanba. 10 kundan keyin qaysi kun bo'ladi?",
+        "options": [
+          "Payshanba",
+          "Chorshanba",
+          "Shanba",
+          "Juma"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Bugun dushanba. 100 kundan keyin qaysi kun bo'ladi?",
+        "options": [
+          "Seshanba",
+          "Chorshanba",
+          "Payshanba",
+          "Juma"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Soat 6:00 da soat strelkalari orasidagi burchak qancha?",
+        "options": [
+          "180°",
+          "90°",
+          "120°",
+          "60°"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Soat 12:00 da soat strelkalari orasidagi burchak qancha?",
+        "options": [
+          "90°",
+          "180°",
+          "0°",
+          "360°"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Bitta daftar 3000 so'm bo'lsa, 4 ta daftar necha so'm bo'ladi?",
+        "options": [
+          "9 000",
+          "12 000",
+          "15 000",
+          "10 000"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Piyoda 1 soatda 5 km yursa, 15 km ni necha soatda yuradi?",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "3"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "10 ta ko'ylak quyoshda 2 soatda quriydi. 20 ta ko'ylak (bir vaqtda yoyilsa) necha soatda quriydi?",
+        "options": [
+          "4",
+          "1",
+          "3",
+          "2"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "2/3 soat necha daqiqa?",
+        "options": [
+          "30",
+          "40",
+          "45",
+          "20"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3/4 soat necha daqiqa?",
+        "options": [
+          "45",
+          "40",
+          "50",
+          "35"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "1,5 soat necha daqiqa?",
+        "options": [
+          "75",
+          "80",
+          "90",
+          "100"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qutida 10 ta qizil va 10 ta ko'k paypoq bor. Ko'zni yumib, kamida nechta paypoq olsak, bir xil rangli juft albatta chiqadi?",
+        "options": [
+          "2",
+          "3",
+          "11",
+          "4"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bir dastada 12 ta tuxum bor. 5 dastada nechta tuxum bor?",
+        "options": [
+          "48",
+          "50",
+          "72",
+          "60"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Narx 100 so'm edi. U 20% ga oshdi, keyin 20% ga arzonlashdi. Oxirgi narx qancha?",
+        "options": [
+          "100",
+          "98",
+          "96",
+          "104"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Sinfda 30 ta o'quvchi bor, 18 tasi qiz. O'g'il bolalar nechta?",
+        "options": [
+          "12",
+          "10",
+          "14",
+          "18"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ali 3 yildan keyin 15 yoshga to'ladi. U hozir necha yoshda?",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "18"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ota 35 yoshda, o'g'li 5 yoshda. Necha yildan keyin ota o'g'lidan 4 marta katta bo'ladi?",
+        "options": [
+          "5",
+          "3",
+          "4",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Ikki sonning yig'indisi 15, ko'paytmasi 56. Bu sonlar qaysilar?",
+        "options": [
+          "5 va 10",
+          "6 va 9",
+          "4 va 11",
+          "7 va 8"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Bir sonning yarmi 15 bo'lsa, o'sha son nechaga teng?",
+        "options": [
+          "7,5",
+          "30",
+          "20",
+          "45"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bir sonning 3 baravari 36 bo'lsa, o'sha son nechaga teng?",
+        "options": [
+          "12",
+          "9",
+          "18",
+          "108"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Sonni 4 ga ko'paytirib, 6 ni qo'shsak 30 chiqadi. Bu son nechaga teng?",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Soatiga 60 km tezlik bilan 90 km yo'lni necha soatda bosib o'tish mumkin?",
+        "options": [
+          "1",
+          "1,5",
+          "2",
+          "2,5"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ketma-ket 5 ta sonning yig'indisi 50. O'rtadagi son nechaga teng?",
+        "options": [
+          "8",
+          "9",
+          "11",
+          "10"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ketma-ket uchta juft sonning yig'indisi 48. Eng kattasi qaysi?",
+        "options": [
+          "14",
+          "16",
+          "20",
+          "18"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1 dan 100 gacha bo'lgan sonlar yig'indisi nechaga teng?",
+        "options": [
+          "5000",
+          "5050",
+          "5500",
+          "4950"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kvadrat tomoni 2 baravar oshsa, yuzi necha baravar oshadi?",
+        "options": [
+          "4",
+          "2",
+          "8",
+          "16"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Kubning qirrasi 2 baravar oshsa, hajmi necha baravar oshadi?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Doira radiusi 2 baravar oshsa, yuzi necha baravar oshadi?",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "6"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "2 litr sutdan 250 ml li nechta stakan to'ldirish mumkin?",
+        "options": [
+          "6",
+          "7",
+          "9",
+          "8"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Ketma-ket ikki natural sonning ko'paytmasi 72. Bu sonlar qaysilar?",
+        "options": [
+          "7 va 8",
+          "9 va 10",
+          "8 va 9",
+          "6 va 7"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Raqamlari yig'indisi 10 bo'lgan eng kichik ikki xonali son qaysi?",
+        "options": [
+          "19",
+          "28",
+          "37",
+          "91"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Eng katta ikki xonali tub son qaysi?",
+        "options": [
+          "91",
+          "93",
+          "97",
+          "99"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Eng kichik uch xonali son qaysi?",
+        "options": [
+          "100",
+          "101",
+          "99",
+          "111"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Nechta ikki xonali natural son bor?",
+        "options": [
+          "99",
+          "89",
+          "100",
+          "90"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1 dan 50 gacha nechta juft son bor?",
+        "options": [
+          "24",
+          "25",
+          "26",
+          "50"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "3 haftada necha kun bor?",
+        "options": [
+          "21",
+          "18",
+          "24",
+          "28"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Bir yilda taxminan necha hafta bor?",
+        "options": [
+          "48",
+          "50",
+          "52",
+          "56"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Kabisa yili necha kundan iborat?",
+        "options": [
+          "365",
+          "366",
+          "364",
+          "367"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kabisa yilida fevral oyi necha kun?",
+        "options": [
+          "28",
+          "30",
+          "31",
+          "29"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "\"Kitob\" so'zi teskari yozilsa, qaysi harf birinchi bo'ladi?",
+        "options": [
+          "k",
+          "i",
+          "t",
+          "b"
+        ],
+        "answer": 3
+      }
+    ],
+    "3": [
+      {
+        "q": "Ingliz alifbosida A harfidan keyin 5-harf qaysi (A = 1-harf)?",
+        "options": [
+          "D",
+          "E",
+          "F",
+          "G"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ingliz alifbosida nechta harf bor?",
+        "options": [
+          "26",
+          "24",
+          "28",
+          "30"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Haftaning dushanbadan boshlab sanalganda chorshanba nechanchi kun?",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "5"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Yilning oxirgi oyi qaysi?",
+        "options": [
+          "Noyabr",
+          "Dekabr",
+          "Yanvar",
+          "Oktyabr"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi oyda 31 kun yo'q?",
+        "options": [
+          "Yanvar",
+          "Mart",
+          "Iyul",
+          "Aprel"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "1 kg paxta va 1 kg temirdan qaysi biri og'irroq?",
+        "options": [
+          "Paxta",
+          "Temir",
+          "Ikkalasi teng",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ko'proq olgan sari kattalashadigan narsa nima?",
+        "options": [
+          "Chuqur (o'ra)",
+          "Tosh",
+          "Daraxt",
+          "Suv"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qanchalik ko'p quritsa, shunchalik ho'l bo'ladigan narsa nima?",
+        "options": [
+          "Soch",
+          "Kiyim",
+          "Sochiq",
+          "Qum"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Sizda 3 ta olma bor edi, 2 tasini olib qo'ydingiz. Sizda nechta olma bor?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "0"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Xonaning 4 burchagida bittadan mushuk o'tiribdi, har mushukning oldida 3 tadan mushuk bor. Xonada jami nechta mushuk bor?",
+        "options": [
+          "3",
+          "7",
+          "12",
+          "4"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "5 ta mushuk 5 ta sichqonni 5 daqiqada tutsa, 1 ta mushuk 1 ta sichqonni necha daqiqada tutadi?",
+        "options": [
+          "1",
+          "5",
+          "25",
+          "10"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bir qutida 12 ta qalam bor. 3 ta qutida nechta qalam bor?",
+        "options": [
+          "36",
+          "15",
+          "24",
+          "48"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi son ham 3 ga, ham 4 ga bo'linadi?",
+        "options": [
+          "14",
+          "16",
+          "24",
+          "30"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Ketma-ket uchta toq sonning yig'indisi 27. O'rtadagisi qaysi?",
+        "options": [
+          "7",
+          "9",
+          "11",
+          "13"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Raqamlari bir-biridan farqli bo'lgan eng katta uch xonali son qaysi?",
+        "options": [
+          "999",
+          "997",
+          "989",
+          "987"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Dushanba, chorshanba, juma, ? Keyingi kun qaysi?",
+        "options": [
+          "Shanba",
+          "Payshanba",
+          "Dushanba",
+          "Yakshanba"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Yanvar, mart, may, ? Keyingi oy qaysi?",
+        "options": [
+          "Iyun",
+          "Iyul",
+          "Avgust",
+          "Aprel"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Bir, uch, besh, ? Keyingi son qaysi?",
+        "options": [
+          "yetti",
+          "olti",
+          "sakkiz",
+          "to'rt"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "2, 4, 8, 14, 22, ? Keyingi son qaysi?",
+        "options": [
+          "28",
+          "30",
+          "32",
+          "34"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "6, 11, 21, 41, ? Keyingi son qaysi?",
+        "options": [
+          "71",
+          "81",
+          "82",
+          "61"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "5, 6, 8, 11, 15, ? Keyingi son qaysi?",
+        "options": [
+          "18",
+          "19",
+          "22",
+          "20"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "0, 1, 1, 2, 3, 5, ? Keyingi son qaysi?",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "3, 9, 27, 81, ? Keyingi son qaysi?",
+        "options": [
+          "243",
+          "162",
+          "108",
+          "324"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "10, 8, 6, 4, ? Keyingi son qaysi?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "0"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "1, 2, 6, 24, ? Keyingi son qaysi?",
+        "options": [
+          "120",
+          "48",
+          "100",
+          "144"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi son ortiqcha: 16, 25, 36, 40?",
+        "options": [
+          "16",
+          "25",
+          "36",
+          "40"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi son ortiqcha: 2, 9, 3, 5?",
+        "options": [
+          "2",
+          "9",
+          "3",
+          "5"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi son ortiqcha: 8, 27, 64, 50?",
+        "options": [
+          "50",
+          "8",
+          "27",
+          "64"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: Yer, Mars, Oy, Venera?",
+        "options": [
+          "Yer",
+          "Mars",
+          "Oy",
+          "Venera"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: oltin, yog'och, kumush, mis?",
+        "options": [
+          "Oltin",
+          "Yog'och",
+          "Kumush",
+          "Mis"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: ot, sigir, qo'y, burgut?",
+        "options": [
+          "Ot",
+          "Sigir",
+          "Qo'y",
+          "Burgut"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: olma, nok, anor, kartoshka?",
+        "options": [
+          "Olma",
+          "Nok",
+          "Anor",
+          "Kartoshka"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qaysi so'z ortiqcha: stol, kitob, stul, shkaf?",
+        "options": [
+          "Stol",
+          "Kitob",
+          "Stul",
+          "Shkaf"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Agar A = 1, B = 2, C = 3 bo'lsa, D nechaga teng?",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Agar A = 1, B = 2, C = 3 bo'lsa, \"CAB\" harflari yig'indisi nechaga teng?",
+        "options": [
+          "5",
+          "7",
+          "6",
+          "9"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Agar 2 + 3 = 10, 4 + 5 = 36 bo'lsa (qoida: (a + b) × a), 6 + 7 = ?",
+        "options": [
+          "42",
+          "78",
+          "13",
+          "84"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Agar 1 → 1, 2 → 4, 3 → 9 bo'lsa, 6 → ?",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "36"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Soat 5 marta urganda 4 soniya o'tadi. 10 marta urganda necha soniya o'tadi?",
+        "options": [
+          "8",
+          "10",
+          "9",
+          "12"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "10 m uzunlikdagi yo'lning ikki chetiga ham, har 2 m ga ustun qo'yilsa, nechta ustun kerak bo'ladi?",
+        "options": [
+          "6",
+          "5",
+          "4",
+          "10"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "100 ni 2 ga bo'lib, 10 ni qo'shsak nechchi bo'ladi?",
+        "options": [
+          "50",
+          "55",
+          "60",
+          "110"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "30 ni 1/2 ga bo'lib, 10 ni qo'shsak nechchi bo'ladi?",
+        "options": [
+          "70",
+          "25",
+          "40",
+          "15"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Fermada tovuq va sigirlar bor: jami 10 ta bosh va 28 ta oyoq. Sigirlar nechta?",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "4"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Qafasda quyon va tovuqlar bor: jami 8 ta bosh va 20 ta oyoq. Quyonlar nechta?",
+        "options": [
+          "3",
+          "2",
+          "4",
+          "1"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Ali 100 so'mdan 20 so'm sarfladi, qolgan pulning yarmini do'stiga berdi. Unda necha so'm qoldi?",
+        "options": [
+          "40",
+          "50",
+          "30",
+          "80"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Kvadratning nechta diagonali bor?",
+        "options": [
+          "1",
+          "4",
+          "2",
+          "3"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Kubning nechta yog'i (tomoni) bor?",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Kubning nechta uchi bor?",
+        "options": [
+          "4",
+          "6",
+          "12",
+          "8"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Uchburchakli prizma nechta yoqqa ega?",
+        "options": [
+          "3",
+          "4",
+          "6",
+          "5"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Tanga tashlanganda gerb tushish ehtimoli qancha?",
+        "options": [
+          "1/4",
+          "1/2",
+          "1",
+          "0"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "A > B va B > C bo'lsa, A va C orasidagi munosabat qanday?",
+        "options": [
+          "A > C",
+          "A < C",
+          "A = C",
+          "Aniqlab bo'lmaydi"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

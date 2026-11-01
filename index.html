@@ -108,14 +108,13 @@ footer {
 
 <div class="subjects" id="subjects">
     <h2>📚 Fanni tanlang</h2>
-    <div class="subject">📐 Matematika</div>
-    <div class="subject">🇬🇧 Ingliz tili</div>
-    <div class="subject">🌍 Geografiya</div>
-    <div class="subject">📜 Tarix</div>
-    <div class="subject">📖 Ona tili-Adabiyot</div>
- <div class="subject">🌍 Mantiqiy savollar	</div>
+    <div class="subject" data-subject="math">📐 Matematika</div>
+    <div class="subject" data-subject="eng">🇬🇧 Ingliz tili</div>
+    <div class="subject" data-subject="geo">🌍 Geografiya</div>
+    <div class="subject" data-subject="hist">📜 Tarix</div>
+    <div class="subject" data-subject="lit">📖 Ona tili-Adabiyot</div>
+    <div class="subject" data-subject="logic">🧠 Mantiqiy savollar</div>
 </div>
-
 <script>
 const cards = document.querySelectorAll(".card");
 
@@ -174,33 +173,22 @@ function checkAnswer(element, correct) {
 </div>
 
 <script>
-const questions = [
-    {
-        question: "O‘zbekiston poytaxti qaysi shahar?",
-        answers: ["Samarqand", "Toshkent", "Buxoro", "Xiva"],
-        correct: 1
-    },
-    {
-        question: "5 × 6 nechaga teng?",
-        answers: ["25", "35", "30", "40"],
-        correct: 2
-    },
-    {
-        question: "Ingliz tilida 'Apple' nima degani?",
-        answers: ["Olma", "Kitob", "Uy", "Suv"],
-        correct: 0
-    },
-    {
-        question: "Yerning tabiiy yo‘ldoshi nima?",
-        answers: ["Quyosh", "Mars", "Oy", "Yulduz"],
-        correct: 2
-    },
-    {
-        question: "Bir haftada necha kun bor?",
-        answers: ["5", "6", "7", "8"],
-        correct: 2
+let questions = [];
+let allQuestions = {};
+
+async function loadQuestions() {
+    try {
+        const response = await fetch("./questions.json");
+        if (!response.ok) {
+            throw new Error("Savollar fayli yuklanmadi");
+        }
+
+        allQuestions = await response.json();
+    } catch (error) {
+        console.error("Savollarni yuklashda xato:", error);
+        alert("Savollar bazasini yuklab bo‘lmadi!");
     }
-];
+}
 
 let currentQuestion = 0;
 let score = 0;
@@ -283,7 +271,18 @@ document.getElementById("finalPercent").textContent = percent + "%";
 <script>
 document.querySelectorAll("#subjects .subject").forEach(function(item) {
     item.onclick = function() {
+        const subject = item.dataset.subject;
+
         document.getElementById("realTitle").textContent = item.textContent;
+
+        questions = allQuestions[subject]["1"].map(function(q) {
+            return {
+                question: q.q,
+                answers: q.options,
+                correct: q.answer
+            };
+        });
+
         startRealQuiz();
     };
 });
@@ -645,6 +644,8 @@ if (tg) {
         document.getElementById("telegramId").textContent = user.id;
     }
 }
+<script>
+loadQuestions();
 </script>
 </body>
 </html>
