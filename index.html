@@ -283,13 +283,16 @@ document.querySelectorAll("#subjects .subject").forEach(function(item) {
 
         document.getElementById("realTitle").textContent = item.textContent;
 
-        questions = pool.map(function(q) {
-            return {
-                question: q.q,
-                answers: q.options,
-                correct: q.answer
-            };
-        });
+       questions = [...pool]
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 10)
+    .map(function(q) {
+        return {
+            question: q.q,
+            answers: q.options,
+            correct: q.answer
+        };
+    });
 
         startRealQuiz();
     };
