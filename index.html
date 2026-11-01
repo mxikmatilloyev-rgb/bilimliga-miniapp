@@ -178,7 +178,7 @@ let allQuestions = {};
 
 async function loadQuestions() {
     try {
-        const response = await fetch("./questions.json");
+        const response = await fetch("https://mxikmatilloyev-rgb.github.io/bilimliga-miniapp/questions.json");
         if (!response.ok) {
             throw new Error("Savollar fayli yuklanmadi");
         }
@@ -273,9 +273,17 @@ document.querySelectorAll("#subjects .subject").forEach(function(item) {
     item.onclick = function() {
         const subject = item.dataset.subject;
 
+        const pool = allQuestions?.[subject]?.["1"];
+
+        if (!pool || pool.length === 0) {
+            alert("Bu fan uchun savollar topilmadi!");
+            console.error("Fan yoki savollar topilmadi:", subject, allQuestions);
+            return;
+        }
+
         document.getElementById("realTitle").textContent = item.textContent;
 
-        questions = allQuestions[subject]["1"].map(function(q) {
+        questions = pool.map(function(q) {
             return {
                 question: q.q,
                 answers: q.options,
@@ -643,7 +651,8 @@ if (tg) {
         document.getElementById("profileName").textContent = name;
         document.getElementById("telegramId").textContent = user.id;
    
-}
+      }
+ }
 
 loadQuestions();
 </script>
