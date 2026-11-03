@@ -238,6 +238,9 @@ button{font-family:inherit}
         <div class="card"><span>🏆</span>Reyting</div>
         <div class="card"><span>📊</span>Natijalar</div>
         <div class="card"><span>👤</span>Profil</div>
+<div class="card" onclick="openReferral()">
+    <span>🎁</span>Referal
+</div>
     </div>
 </div>
 
@@ -647,6 +650,40 @@ document.querySelectorAll(".card").forEach(function(card) {
     </div>
 
 </div>
+<!-- REFERAL SAHIFASI -->
+<div id="referralPage" style="
+    display:none;
+   background:linear-gradient(145deg,#102a56,#174ea6);
+   color:#ffffff;
+    padding:22px;
+    margin:20px;
+    border-radius:22px;
+    box-shadow:0 8px 25px rgba(20,60,120,0.10);
+">
+
+    <h2 style="color:#174ea6;">🎁 Referal tizimi</h2>
+    <p>Do‘stlaringizni taklif qiling va har bir ro‘yxatdan o‘tgan do‘st uchun 5 ball oling!</p>
+
+    <h3>🔗 Sizning referal havolangiz</h3>
+    <div id="referralLink" style="
+        background:#eef4ff;
+        padding:12px;
+        border-radius:10px;
+        overflow-wrap:anywhere;
+    ">Havola tayyorlanmoqda...</div>
+
+    <button onclick="copyReferralLink()">📋 Havolani nusxalash</button>
+    <button onclick="shareReferralLink()">📤 Do‘stlarga yuborish</button>
+
+    <h3>👥 Taklif qilgan do‘stlaringiz: <span id="referralCount">0</span></h3>
+    <h3>⭐ To‘plangan ball: <span id="referralPoints">0</span></h3>
+
+    <h3>Do‘stlaringiz ro‘yxati</h3>
+    <div id="referralFriends">
+        Hozircha taklif qilingan do‘stlar yo‘q.
+    </div>
+
+</div>
 
 <script>
 function showProfilePage() {
@@ -820,7 +857,52 @@ if (tg) {
    
       }
  }
+let myReferralLink = "";
 
+
+function openReferral() {
+    alert("openReferral ishladi");
+
+    const pages = [
+        "subjects",
+        "quiz",
+        "realQuiz",
+        "tournamentResult",
+        "leaderboard",
+        "resultsPage",
+        "profilePage"
+    ];
+
+    pages.forEach(function(id) {
+        const page = document.getElementById(id);
+        if (page) page.style.display = "none";
+    });
+
+    document.getElementById("referralPage").style.display = "block";
+}
+
+function copyReferralLink() {
+    if (!myReferralLink) {
+        alert("Referal havolasi hali tayyor emas!");
+        return;
+    }
+
+    navigator.clipboard.writeText(myReferralLink)
+        .then(() => alert("Havola nusxalandi!"))
+        .catch(() => alert("Nusxalash amalga oshmadi."));
+}
+
+function shareReferralLink() {
+    if (!myReferralLink) {
+        alert("Referal havolasi hali tayyor emas!");
+        return;
+    }
+
+    const url = "https://t.me/share/url?url="
+        + encodeURIComponent(myReferralLink);
+
+    window.open(url, "_blank");
+}
 loadQuestions();
 </script>
 </body>
