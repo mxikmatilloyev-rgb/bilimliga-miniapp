@@ -5,6 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>BilimLiga</title>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
+<script>
+const API_URL = "http://127.0.0.1:8000";
+</script>
 <style>
 * { box-sizing: border-box; }
 body {
@@ -491,32 +494,44 @@ function showTournamentResult(today) {
 </script>
 <div id="leaderboard" style="display:none; background:white; padding:20px; margin:20px; border-radius:20px;">
     <h2>🏆 BilimLiga reytingi</h2>
-    <p>3 kunlik umumiy natijalar</p>
-
-    <div style="padding:14px;background:#fff3ce;border-radius:12px;margin:10px 0;">
-        🥇 Ali — 53 ball
-    </div>
-
-    <div style="padding:14px;background:#edf3ff;border-radius:12px;margin:10px 0;">
-        🥈 Vali — 47 ball
-    </div>
-
-    <div style="padding:14px;background:#edf3ff;border-radius:12px;margin:10px 0;">
-        🥉 Hasan — 42 ball
-    </div>
-
-    <div style="padding:14px;background:#edf3ff;border-radius:12px;margin:10px 0;">
-        4. Ishtirokchi — 35 ball
-    </div>
+    <p>Haqiqiy natijalar</p>
+    <div id="leaderboardList">Yuklanmoqda...</div>
 </div>
 
 <script>
+async function loadLeaderboard() {
+    const list = document.getElementById("leaderboardList");
+    list.innerHTML = "Yuklanmoqda...";
+    try {
+        const res = await fetch(`${API_URL}/leaderboard`);
+        const data = await res.json();
+        const rows = data.leaderboard || [];
+        if (rows.length === 0) {
+            list.innerHTML = "Hozircha natijalar yo'q";
+            return;
+        }
+        const medals = ["🥇", "🥈", "🥉"];
+        let html = "";
+        rows.forEach((row, i) => {
+            const medal = medals[i] || `${i + 1}.`;
+            const bg = i === 0 ? "#fff3ce" : "#edf3ff";
+            html += `<div style="padding:14px;background:${bg};border-radius:12px;margin:10px 0;color:#14264b;">
+                ${medal} ${row.name || "Foydalanuvchi"} — ${row.points} ball
+            </div>`;
+        });
+        list.innerHTML = html;
+    } catch (e) {
+        list.innerHTML = "❌ API'ga ulanmadi";
+        console.error(e);
+    }
+}
 function showLeaderboard() {
     document.getElementById("leaderboard").style.display = "block";
     document.getElementById("subjects").style.display = "none";
     document.getElementById("quiz").style.display = "none";
     document.getElementById("realQuiz").style.display = "none";
     document.getElementById("tournamentResult").style.display = "none";
+    loadLeaderboard();
 }
 </script>
 <script>
@@ -529,15 +544,13 @@ document.querySelectorAll(".card").forEach(function(card) {
 <!-- BILIMLIGA NATIJALAR SAHIFASI -->
 <div id="resultsPage" style="
     display:none;
-    background:#ffffff;
+    background:white;
     padding:22px;
     margin:20px;
     border-radius:22px;
-    box-shadow:0 8px 25px rgba(20,60,120,0.10);
 ">
-
-    <h2 style="color:#174ea6;">📊 Mening natijalarim</h2>
-    <p style="color:#718096;">BilimLiga musobaqasidagi ko‘rsatkichlaringiz</p>
+    <h2 style="color:#14264b;">📊 Mening natijalarim</h2>
+    <p style="color:#718096;">BilimLiga musobaqasidagi ko'rsatkichlaringiz</p>
 
     <div style="
         background:linear-gradient(135deg,#1769df,#174ea6);
@@ -547,41 +560,92 @@ document.querySelectorAll(".card").forEach(function(card) {
         margin:18px 0;
         text-align:center;
     ">
-        <p>🏆 3 kunlik umumiy ball</p>
-        <h1 id="myTotalScore" style="font-size:42px;margin:8px;">53</h1>
-        <p>Umumiy to‘plangan ball</p>
+        <p>🏆 Umumiy ball</p>
+        <h1 id="myTotalScore" style="font-size:42px;margin:8px;">—</h1>
+        <p>To'plangan ball</p>
     </div>
 
-    <h3 style="color:#174ea6;">📅 Kunlik natijalar</h3>
-
-    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
-        <b>1-kun</b>
-      <span id="telegramId" style="float:right;">Ulanmoqda...</span>
+    <div id="resultsStats" style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;color:#14264b;">
+        Yuklanmoqda...
     </div>
 
-    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
-        <b>2-kun</b>
-        <span style="float:right;">18 ball</span>
+    <h3 style="color:#14264b;">📅 Fan bo'yicha natijalar</h3>
+    <div id="resultsSubjects" style="color:#14264b;">
+        Yuklanmoqda...
     </div>
-
-    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
-        <b>3-kun</b>
-        <span style="float:right;">20 ball</span>
-    </div>
-
-    <div style="
-        background:#e8f7ef;
-        padding:15px;
-        border-radius:13px;
-        margin-top:18px;
-        color:#167343;
-    ">
-        🎯 Sizning jami natijangiz: <b>53 ball</b>
-    </div>
-
 </div>
 
 <script>
+async function loadResults() {
+    const statsDiv = document.getElementById("resultsStats");
+    const subjectsDiv = document.getElementById("resultsSubjects");
+    const totalDiv = document.getElementById("myTotalScore");
+
+    if (!window.CURRENT_USER_ID) {
+        statsDiv.innerHTML = "❌ Foydalanuvchi aniqlanmadi (Telegram'dan oching)";
+        return;
+    }
+
+    statsDiv.innerHTML = "Yuklanmoqda...";
+    subjectsDiv.innerHTML = "Yuklanmoqda...";
+
+    try {
+        // Profil statistikasi
+        const res = await fetch(`${API_URL}/profile/${window.CURRENT_USER_ID}`);
+        const data = await res.json();
+
+        if (data.error) {
+            statsDiv.innerHTML = "❌ " + data.error;
+            return;
+        }
+
+        const s = data.statistics;
+        totalDiv.textContent = s.points;
+        statsDiv.innerHTML = `
+            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+                <span>📝 Jami testlar:</span><b>${s.tests}</b>
+            </div>
+            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+                <span>✅ To'g'ri javoblar:</span><b>${s.correct}</b>
+            </div>
+            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+                <span>❌ Noto'g'ri javoblar:</span><b>${s.wrong}</b>
+            </div>
+            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+                <span>📈 Aniqlik:</span><b>${s.accuracy}%</b>
+            </div>
+            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+                <span>🏅 Reytingdagi o'rin:</span><b>${s.rank || "—"}</b>
+            </div>
+        `;
+
+        // Fanlar bo'yicha
+        const res2 = await fetch(`${API_URL}/subjects/${window.CURRENT_USER_ID}`);
+        const data2 = await res2.json();
+        const subs = data2.subjects || [];
+
+        if (subs.length === 0) {
+            subjectsDiv.innerHTML = "Hozircha fan bo'yicha natijalar yo'q";
+        } else {
+            const names = {
+                math: "📐 Matematika", eng: "🇬🇧 Ingliz tili",
+                hist: "📜 Tarix", geo: "🌍 Geografiya",
+                lit: "📖 Ona tili", logic: "🧠 Mantiq"
+            };
+            subjectsDiv.innerHTML = subs.map(sub => `
+                <div style="background:#edf3ff;padding:12px;border-radius:12px;margin:8px 0;">
+                    <div style="display:flex;justify-content:space-between;">
+                        <b>${names[sub.subject] || sub.subject}</b>
+                        <b>${sub.correct}/${sub.total} (${sub.percentage}%)</b>
+                    </div>
+                </div>
+            `).join("");
+        }
+    } catch (e) {
+        statsDiv.innerHTML = "❌ API'ga ulanmadi";
+        console.error(e);
+    }
+}
 function showResultsPage() {
     document.getElementById("resultsPage").style.display = "block";
     document.getElementById("subjects").style.display = "none";
@@ -589,6 +653,7 @@ function showResultsPage() {
     document.getElementById("realQuiz").style.display = "none";
     document.getElementById("tournamentResult").style.display = "none";
     document.getElementById("leaderboard").style.display = "none";
+    loadResults();
 }
 </script>
 
@@ -847,6 +912,7 @@ if (tg) {
     const user = tg.initDataUnsafe?.user;
 
     if (user) {
+        window.CURRENT_USER_ID = user.id;
         const name = user.first_name || "Ishtirokchi";
 
         document.getElementById("welcomeName").textContent =
