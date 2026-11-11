@@ -1086,6 +1086,26 @@ function shareReferralLink() {
 
     const url = "https://t.me/share/url?url=" + encodeURIComponent(window.myReferralLink);
     window.open(url, "_blank");
+async function loadProfile() {
+    if (!window.CURRENT_USER_ID) return;
+
+    try {
+        const res = await fetch(`${API_URL}/profile/${window.CURRENT_USER_ID}`);
+        const data = await res.json();
+
+        if (data.error) {
+            document.getElementById("profileName").textContent = "Xato";
+            return;
+        }
+
+        document.getElementById("profileName").textContent = data.profile.name || "Ishtirokchi";
+        document.getElementById("profileTgId").textContent = data.profile.id;
+        document.getElementById("profilePoints").textContent = data.statistics.points;
+        document.getElementById("profileTests").textContent = data.statistics.tests + " ta";
+
+    } catch (e) {
+        console.error("Profil yuklashda xato:", e);
+    }
 }
 loadQuestions();
 </script>
