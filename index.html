@@ -1016,12 +1016,13 @@ function openReferral() {
 	async function loadReferral() {
     if (!window.CURRENT_USER_ID) return;
 
-    // DIQQAT: Botingiz nomini yozing (masalan, agar botingiz @bilimligabot bo'lsa, shunchaki "bilimligabot" yozing)
     const botUsername = "BilimLiga_bot"; 
     const link = `https://t.me/${botUsername}?start=ref_${window.CURRENT_USER_ID}`;
     
-    document.getElementById("referralLink").textContent = link;
-    window.myReferralLink = link; 
+    const aTag = document.getElementById("referralLink");
+    aTag.textContent = link;
+    aTag.href = link;
+    window.myReferralLink = link;
 
     try {
         const res = await fetch(`${API_URL}/referral/${window.CURRENT_USER_ID}`);
