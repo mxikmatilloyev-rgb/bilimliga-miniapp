@@ -720,36 +720,37 @@ document.querySelectorAll(".card").forEach(function(card) {
 <!-- REFERAL SAHIFASI -->
 <div id="referralPage" style="
     display:none;
-   background:linear-gradient(145deg,#102a56,#174ea6);
-   color:#ffffff;
+    background:linear-gradient(145deg,#102a56,#174ea6);
+    color:#ffffff;
     padding:22px;
     margin:20px;
     border-radius:22px;
-    box-shadow:0 8px 25px rgba(20,60,120,0.10);
 ">
+    <h2 style="color:#ffffff;">🎁 Referal tizimi</h2>
+    <p style="color:#cce4ff;">Do'stlaringizni taklif qiling va har bir ro'yxatdan o'tgan do'st uchun 5 ball oling!</p>
 
-    <h2 style="color:#174ea6;">🎁 Referal tizimi</h2>
-    <p>Do‘stlaringizni taklif qiling va har bir ro‘yxatdan o‘tgan do‘st uchun 5 ball oling!</p>
-
-    <h3>🔗 Sizning referal havolangiz</h3>
+    <h3 style="color:#ffffff;">🔗 Sizning referal havolangiz</h3>
+    
     <div id="referralLink" style="
-        background:#eef4ff;
+        background:#ffffff;
+        color:#14264b;
         padding:12px;
         border-radius:10px;
         overflow-wrap:anywhere;
+        font-weight:bold;
+        margin-bottom:10px;
     ">Havola tayyorlanmoqda...</div>
 
     <button onclick="copyReferralLink()">📋 Havolani nusxalash</button>
-    <button onclick="shareReferralLink()">📤 Do‘stlarga yuborish</button>
+    <button onclick="shareReferralLink()">📤 Do'stlarga yuborish</button>
 
-    <h3>👥 Taklif qilgan do‘stlaringiz: <span id="referralCount">0</span></h3>
-    <h3>⭐ To‘plangan ball: <span id="referralPoints">0</span></h3>
+    <h3 style="color:#ffffff;">👥 Taklif qilgan do'stlaringiz: <span id="referralCount" style="color:#ffd34e;">0</span></h3>
+    <h3 style="color:#ffffff;">⭐ To'plangan ball: <span id="referralPoints" style="color:#ffd34e;">0</span></h3>
 
-    <h3>Do‘stlaringiz ro‘yxati</h3>
-    <div id="referralFriends">
-        Hozircha taklif qilingan do‘stlar yo‘q.
+    <h3 style="color:#ffffff;">Do'stlaringiz ro'yxati</h3>
+    <div id="referralFriends" style="color:#ffffff;">
+        Hozircha taklif qilingan do'stlar yo'q.
     </div>
-
 </div>
 
 <!-- OBUNA SAHIFASI -->
