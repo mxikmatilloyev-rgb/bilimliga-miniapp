@@ -604,19 +604,19 @@ async function loadResults() {
         const s = data.statistics;
         totalDiv.textContent = s.points;
         statsDiv.innerHTML = `
-            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+            <div style="display:flex;justify-content:space-between;padding:6px 0;color:#14264b;">
                 <span>📝 Jami testlar:</span><b>${s.tests}</b>
             </div>
-            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+            <div style="display:flex;justify-content:space-between;padding:6px 0;color:#14264b;">
                 <span>✅ To'g'ri javoblar:</span><b>${s.correct}</b>
             </div>
-            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+            <div style="display:flex;justify-content:space-between;padding:6px 0;color:#14264b;">
                 <span>❌ Noto'g'ri javoblar:</span><b>${s.wrong}</b>
             </div>
-            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+            <div style="display:flex;justify-content:space-between;padding:6px 0;color:#14264b;">
                 <span>📈 Aniqlik:</span><b>${s.accuracy}%</b>
             </div>
-            <div style="display:flex;justify-content:space-between;padding:6px 0;">
+            <div style="display:flex;justify-content:space-between;padding:6px 0;color:#14264b;">
                 <span>🏅 Reytingdagi o'rin:</span><b>${s.rank || "—"}</b>
             </div>
         `;
@@ -635,7 +635,7 @@ async function loadResults() {
                 lit: "📖 Ona tili", logic: "🧠 Mantiq"
             };
             subjectsDiv.innerHTML = subs.map(sub => `
-                <div style="background:#edf3ff;padding:12px;border-radius:12px;margin:8px 0;">
+                <div style="background:#edf3ff;padding:12px;border-radius:12px;margin:8px 0;color:#14264b;">
                     <div style="display:flex;justify-content:space-between;">
                         <b>${names[sub.subject] || sub.subject}</b>
                         <b>${sub.correct}/${sub.total} (${sub.percentage}%)</b>
