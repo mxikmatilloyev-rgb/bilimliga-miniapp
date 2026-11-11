@@ -1050,25 +1050,44 @@ function openReferral() {
     }
 }
 function copyReferralLink() {
-    if (!myReferralLink) {
-        alert("Referal havolasi hali tayyor emas!");
+    if (!window.myReferralLink) {
+        alert("Referal havolasi hali yuklanmadi. Iltimos, kuting.");
         return;
     }
 
-    navigator.clipboard.writeText(myReferralLink)
-        .then(() => alert("Havola nusxalandi!"))
-        .catch(() => alert("Nusxalash amalga oshmadi."));
+    // Zamonaviy usul
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(window.myReferralLink)
+            .then(() => alert("✅ Havola nusxalandi!"))
+            .catch(() => fallbackCopy(window.myReferralLink));
+    } else {
+        fallbackCopy(window.myReferralLink);
+    }
 }
 
+// Agar clipboard ishlamasa, muqobil nusxalash usuli
+function fallbackCopy(text) {
+    const textArea = document.createElement("textarea");
+    textArea.value = text;
+    textArea.style.position = "fixed";
+    document.body.appendChild(textArea);
+    textArea.focus();
+    textArea.select();
+    try {
+        document.execCommand('copy');
+        alert("✅ Havola nusxalandi!");
+    } catch (err) {
+        alert("❌ Nusxalash amalga oshmadi. Havolani qo'lda belgilab oling.");
+    }
+    document.body.removeChild(textArea);
+}
 function shareReferralLink() {
-    if (!myReferralLink) {
-        alert("Referal havolasi hali tayyor emas!");
+    if (!window.myReferralLink) {
+        alert("Referal havolasi hali yuklanmadi.");
         return;
     }
 
-    const url = "https://t.me/share/url?url="
-        + encodeURIComponent(myReferralLink);
-
+    const url = "https://t.me/share/url?url=" + encodeURIComponent(window.myReferralLink);
     window.open(url, "_blank");
 }
 loadQuestions();
