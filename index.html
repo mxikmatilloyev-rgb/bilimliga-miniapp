@@ -1016,8 +1016,39 @@ function openReferral() {
     });
 
     document.getElementById("referralPage").style.display = "block";
+	 loadReferral();
 }
+	async function loadReferral() {
+    if (!window.CURRENT_USER_ID) return;
 
+    // DIQQAT: Botingiz nomini yozing (masalan, agar botingiz @bilimligabot bo'lsa, shunchaki "bilimligabot" yozing)
+    const botUsername = "bilimligabot"; 
+    const link = `https://t.me/${botUsername}?start=ref_${window.CURRENT_USER_ID}`;
+    
+    document.getElementById("referralLink").textContent = link;
+    window.myReferralLink = link; 
+
+    try {
+        const res = await fetch(`${API_URL}/referral/${window.CURRENT_USER_ID}`);
+        const data = await res.json();
+        
+        document.getElementById("referralCount").textContent = data.count;
+        document.getElementById("referralPoints").textContent = data.points;
+
+        const friendsDiv = document.getElementById("referralFriends");
+        if (data.friends.length === 0) {
+            friendsDiv.innerHTML = "Hozircha taklif qilingan do'stlar yo'q.";
+        } else {
+            friendsDiv.innerHTML = data.friends.map(f => `
+                <div style="background:#ffffff;padding:12px;border-radius:10px;margin:8px 0;color:#14264b;">
+                    👤 <b>${f.name}</b>
+                </div>
+            `).join("");
+        }
+    } catch (e) {
+        console.error("Referal yuklashda xato:", e);
+    }
+}
 function copyReferralLink() {
     if (!myReferralLink) {
         alert("Referal havolasi hali tayyor emas!");
