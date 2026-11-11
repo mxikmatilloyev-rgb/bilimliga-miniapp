@@ -244,6 +244,8 @@ button{font-family:inherit}
 <div class="card" onclick="openReferral()">
     <span>🎁</span>Referal
 </div>
+    <div class="card" onclick="openSubscription()">
+        <span>💎</span>Obuna
     </div>
 </div>
 
@@ -750,6 +752,60 @@ document.querySelectorAll(".card").forEach(function(card) {
 
 </div>
 
+<!-- OBUNA SAHIFASI -->
+<div id="subscriptionPage" style="
+    display:none;
+    background:linear-gradient(145deg,#102a56,#174ea6);
+    color:#ffffff;
+    padding:22px;
+    margin:20px;
+    border-radius:22px;
+">
+    <h2 style="color:#ffffff;">💎 Obuna tariflari</h2>
+    <p style="color:#cce4ff;">BilimLiga'dan to'liq foydalanish uchun tarif tanlang</p>
+
+    <!-- ORDINARY -->
+    <div style="background:#1a3f7a;padding:18px;border-radius:16px;margin:14px 0;border:2px solid #2e5fa8;">
+        <h3 style="color:#7ec8ff;margin:0 0 8px 0;">📘 Ordinary — 30 000 so'm / oy</h3>
+        <p style="color:#dce9ff;margin:6px 0;">Oddiy foydalanuvchilar uchun</p>
+        <ul style="color:#dce9ff;font-size:14px;line-height:1.7;padding-left:20px;margin:10px 0;">
+            <li>✅ Barcha fanlarga kirish</li>
+            <li>✅ Har kuni o'z kuni testini ishlash</li>
+            <li>✅ Har fandan 10 tadan savol</li>
+            <li>✅ Reyting va natijalarni ko'rish</li>
+        </ul>
+    </div>
+
+    <!-- PRO -->
+    <div style="background:linear-gradient(135deg,#6b2bb5,#3a1d8a);padding:18px;border-radius:16px;margin:14px 0;border:2px solid #a66bff;">
+        <h3 style="color:#ffd34e;margin:0 0 8px 0;">⭐ Pro — 50 000 so'm / oy</h3>
+        <p style="color:#f0e0ff;margin:6px 0;">Faol o'quvchilar uchun</p>
+        <ul style="color:#f0e0ff;font-size:14px;line-height:1.7;padding-left:20px;margin:10px 0;">
+            <li>✅ Ordinary'dagi hamma narsa</li>
+            <li>⭐ 3 kundan birini tanlab, hamma testni bir kunda ishlash</li>
+            <li>⭐ Batafsil fan bo'yicha statistika</li>
+            <li>⭐ Profilida "PRO" belgisi</li>
+        </ul>
+    </div>
+
+    <button onclick="showComingSoon()" style="
+        width:100%;
+        padding:16px;
+        margin-top:14px;
+        background:linear-gradient(100deg,#ffbf35,#ff9500);
+        color:#14264b;
+        border:0;
+        border-radius:14px;
+        font-size:16px;
+        font-weight:bold;
+        cursor:pointer;
+    ">💰 Sotib olish</button>
+
+    <p style="color:#a8bdd8;font-size:12px;text-align:center;margin-top:14px;">
+        To'lov tizimi tez orada ishga tushadi
+    </p>
+</div>
+
 <script>
 function showProfilePage() {
     document.getElementById("profilePage").style.display = "block";
@@ -813,7 +869,7 @@ body {
 
 <script>
 function hideAllPages() {
-    const pages = [
+        const pages = [
         "subjects",
         "quiz",
         "realQuiz",
@@ -925,10 +981,24 @@ if (tg) {
  }
 let myReferralLink = "";
 
+function openSubscription() {
+    const pages = [
+        "subjects", "quiz", "realQuiz", "tournamentResult",
+        "leaderboard", "resultsPage", "profilePage",
+        "referralPage", "subscriptionPage"
+    ];
+    pages.forEach(function(id) {
+        const page = document.getElementById(id);
+        if (page) page.style.display = "none";
+    });
+    document.getElementById("subscriptionPage").style.display = "block";
+}
 
+function showComingSoon() {
+    alert("💰 To'lov tizimi tez orada ishga tushadi.\n\nHozircha tariflar bilan tanishing.");
+}
 function openReferral() {
-    alert("openReferral ishladi");
-
+   
     const pages = [
         "subjects",
         "quiz",
