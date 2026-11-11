@@ -669,14 +669,13 @@ document.querySelectorAll(".card").forEach(function(card) {
 <!-- BILIMLIGA PROFIL SAHIFASI -->
 <div id="profilePage" style="
     display:none;
-    background:white;
+    background:linear-gradient(145deg,#102a56,#174ea6);
+    color:#ffffff;
     padding:22px;
     margin:20px;
     border-radius:22px;
-    box-shadow:0 8px 25px rgba(20,60,120,0.10);
 ">
-
-    <h2 style="color:#174ea6;">👤 Mening profilim</h2>
+    <h2 style="color:#ffffff;">👤 Mening profilim</h2>
 
     <div style="text-align:center;padding:20px 0;">
         <div style="
@@ -690,32 +689,32 @@ document.querySelectorAll(".card").forEach(function(card) {
             justify-content:center;
             font-size:38px;
             margin:auto;
+            border: 2px solid #ffffff;
         ">👤</div>
 
-        <h2 id="profileName" style="color:#174ea6;">Ishtirokchi</h2>
-        <p style="color:#718096;">BilimLiga a'zosi</p>
+        <h2 id="profileName" style="color:#ffffff; margin-top:10px;">Yuklanmoqda...</h2>
+        <p style="color:#cce4ff;">BilimLiga a'zosi</p>
     </div>
 
-    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;color:#14264b;">
         <b>🆔 Telegram ID</b>
-        <span style="float:right;">Hozircha ulanmagan</span>
+        <span id="profileTgId" style="float:right;font-weight:bold;">...</span>
     </div>
 
-    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;color:#14264b;">
         <b>🏆 Umumiy ball</b>
-        <span style="float:right;">53 ball</span>
+        <span id="profilePoints" style="float:right;font-weight:bold;">0</span>
     </div>
 
-    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;">
+    <div style="background:#edf3ff;padding:15px;border-radius:13px;margin:10px 0;color:#14264b;">
         <b>📚 Ishtirok etilgan testlar</b>
-        <span style="float:right;">3 ta</span>
+        <span id="profileTests" style="float:right;font-weight:bold;">0</span>
     </div>
 
     <div style="background:#e8f7ef;padding:15px;border-radius:13px;margin:10px 0;color:#167343;">
         <b>⭐ Musobaqa holati</b>
         <p style="margin-bottom:0;">Faol ishtirokchi</p>
     </div>
-
 </div>
 <!-- REFERAL SAHIFASI -->
 <div id="referralPage" style="
