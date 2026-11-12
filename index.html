@@ -350,7 +350,7 @@ let allQuestions = {};
 
 async function loadQuestions() {
     try {
-        const response = await fetch("https://mxikmatilloyev-rgb.github.io/bilimliga-miniapp/questions.json");
+       const response = await fetch("https://mxikmatilloyev-rgb.github.io/bilimliga-miniapp/questions.json?v=5");
         if (!response.ok) {
             throw new Error("Savollar fayli yuklanmadi");
         }
