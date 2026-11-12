@@ -350,15 +350,19 @@ let allQuestions = {};
 
 async function loadQuestions() {
     try {
-       const response = await fetch("https://mxikmatilloyev-rgb.github.io/bilimliga-miniapp/questions.json?v=5");
+        // GitHub o'rniga tezroq va ishonchli CDN xizmatidan yuklaymiz
+        const response = await fetch("https://raw.githack.com/mxikmatilloyev-rgb/bilimliga-miniapp/main/questions.json", { cache: "no-store" });
+        
         if (!response.ok) {
-            throw new Error("Savollar fayli yuklanmadi");
+            throw new Error("Fayl yuklanmadi. Status: " + response.status);
         }
 
         allQuestions = await response.json();
+        console.log("Savollar muvaffaqiyatli yuklandi!");
     } catch (error) {
         console.error("Savollarni yuklashda xato:", error);
-        alert("Savollar bazasini yuklab bo‘lmadi!");
+        // Xatoni ekranda ko'rsatamiz, shunda telefonda nima bo'layotganini bilamiz
+        alert("❌ Xato: " + error.message + "\n\nIltimos, internetni tekshiring yoki keyinroq urinib ko'ring.");
     }
 }
 
