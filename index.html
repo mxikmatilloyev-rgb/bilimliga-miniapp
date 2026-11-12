@@ -447,8 +447,12 @@ document.querySelectorAll("#subjects .subject").forEach(function(item) {
 
         const pool = allQuestions?.[subject]?.["1"];
 
-        if (!pool || pool.length === 0) {
-            alert("Bu fan uchun savollar topilmadi!");
+               if (!pool || pool.length === 0) {
+            if (Object.keys(allQuestions).length === 0) {
+                alert("⏳ Savollar bazasi hali yuklanmoqda. Iltimos, 2-3 soniya kutib, qaytadan urinib ko'ring.");
+            } else {
+                alert("❌ Bu fan uchun savollar topilmadi (balki faylda xatolik bor).");
+            }
             console.error("Fan yoki savollar topilmadi:", subject, allQuestions);
             return;
         }
