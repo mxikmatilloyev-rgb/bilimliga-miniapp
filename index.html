@@ -350,9 +350,13 @@ let allQuestions = {};
 
 async function loadQuestions() {
     try {
-        // To'g'ridan-to'g'ri GitHub'dan yuklaymiz va keshni chetlab o'tamiz
-        const url = "https://raw.githubusercontent.com/mxikmatilloyev-rgb/bilimliga-miniapp/main/questions.json?v=99";
-        const response = await fetch(url);
+        // Agar 10 soniya ichida yuklanmasa, xato beradi (qotib qolishni oldini oladi)
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 10000); 
+
+        // Savollarni aynan shu saytning o'zidan yuklaymiz (CORS muammosi bo'lmaydi)
+        const response = await fetch("questions.json?v=" + Date.now(), { signal: controller.signal });
+        clearTimeout(timeoutId);
 
         if (!response.ok) {
             throw new Error("Fayl topilmadi. Status: " + response.status);
@@ -362,7 +366,7 @@ async function loadQuestions() {
         console.log("Savollar muvaffaqiyatli yuklandi!");
     } catch (error) {
         console.error("Savollarni yuklashda xato:", error);
-        alert("❌ Xatolik: " + error.message + "\nIltimos, internetni tekshiring.");
+        alert("❌ Savollar yuklanmadi: " + error.message + "\n\nIltimos, internetni tekshiring.");
     }
 }
 
