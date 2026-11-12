@@ -866,14 +866,16 @@ body {
 
 <script>
 function hideAllPages() {
-        const pages = [
+    const pages = [
         "subjects",
         "quiz",
         "realQuiz",
         "tournamentResult",
         "leaderboard",
         "resultsPage",
-        "profilePage"
+        "profilePage",
+        "referralPage",      // QO'SHILDI
+        "subscriptionPage"   // QO'SHILDI
     ];
 
     pages.forEach(function(id) {
@@ -894,16 +896,19 @@ function openTests() {
 function openRanking() {
     hideAllPages();
     document.getElementById("leaderboard").style.display = "block";
+    loadLeaderboard(); // QO'SHILDI
 }
 
 function openResults() {
     hideAllPages();
     document.getElementById("resultsPage").style.display = "block";
+    loadResults(); // QO'SHILDI
 }
 
 function openProfile() {
     hideAllPages();
     document.getElementById("profilePage").style.display = "block";
+    loadProfile(); // QO'SHILDI
 }
 </script>
 <script>
@@ -1086,6 +1091,8 @@ function shareReferralLink() {
 
     const url = "https://t.me/share/url?url=" + encodeURIComponent(window.myReferralLink);
     window.open(url, "_blank");
+} // <--- SHU QAVS YETISHMAYOTGAN EDI!
+
 async function loadProfile() {
     if (!window.CURRENT_USER_ID) return;
 
@@ -1111,4 +1118,3 @@ loadQuestions();
 </script>
 </body>
 </html>
-	
